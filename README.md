@@ -94,4 +94,4 @@ This project is part of my data analytics portfolio and demonstrates my ability 
 ---
 
 ## Tableau Dashboard
-[[ PLACEHOLDER FOR TABLEAU PUBLIC LINK ]](https://public.tableau.com/app/profile/harrison.nordstrom/viz/EmployeeDataCleaningKPI/Dashboard1?publish=yes)
+https://public.tableau.com/app/profile/harrison.nordstrom/viz/EmployeeDataCleaningKPI/Dashboard1?publish=yes
