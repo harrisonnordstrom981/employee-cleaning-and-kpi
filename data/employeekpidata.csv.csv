@@ -1,0 +1,1001 @@
+Employee_ID,First_Name,Last_Name,age_clean,age_missing_flag,department_clean,region_clean,status_clean,join_date,salary,Email,phone_digits,phone_valid,phone_clean,performance_score_clean,remote_work,is_active_employee,tenure_days,tenure_years,salary_band
+EMP1029,Alice,Brown,40,false,DevOps,California,Active,,63411.31,alice.brown@example.com,2849939088,true,2849939088,Excellent,true,true,,,50K–74K
+EMP1036,Alice,Brown,,true,Cloud Tech,New York,Active,,54757.26,alice.brown@example.com,2515837766,true,2515837766,Poor,false,true,,,50K–74K
+EMP1953,Alice,Brown,40,false,Cloud Tech,California,Active,,,alice.brown@example.com,4617520237,true,4617520237,Poor,false,true,,,Unknown
+EMP1047,Alice,Davis,35,false,Sales,Illinois,Active,,58921.19,alice.davis@example.com,310303722,false,,Average,true,true,,,50K–74K
+EMP1078,Alice,Davis,25,false,DevOps,Florida,Active,,82318.89,alice.davis@example.com,5869886496,true,5869886496,Good,true,true,,,75K–99K
+EMP1114,Alice,Davis,35,false,Sales,Texas,Active,,86327.47,alice.davis@example.com,3046875062,true,3046875062,Average,false,true,,,75K–99K
+EMP1156,Alice,Davis,40,false,HR,New York,Active,,107693.38,alice.davis@example.com,4121820969,true,4121820969,Average,true,true,,,100K–124K
+EMP1311,Alice,Davis,,true,Sales,Nevada,Active,,97512.51,alice.davis@example.com,6333021259,true,6333021259,Good,true,true,,,75K–99K
+EMP1562,Alice,Davis,25,false,Admin,California,Active,,97837.32,alice.davis@example.com,7595587208,true,7595587208,Excellent,false,true,,,75K–99K
+EMP1563,Alice,Davis,35,false,Admin,Illinois,Active,,106981.84,alice.davis@example.com,6289365434,true,6289365434,Poor,true,true,,,100K–124K
+EMP1669,Alice,Davis,25,false,Finance,Illinois,Active,,68371.66,alice.davis@example.com,2822700933,true,2822700933,Poor,false,true,,,50K–74K
+EMP1014,Alice,Garcia,25,false,Admin,Nevada,Active,,97633.68,alice.garcia@example.com,1734206968,true,1734206968,Excellent,true,true,,,75K–99K
+EMP1120,Alice,Garcia,30,false,HR,Illinois,Active,,80668.13,alice.garcia@example.com,6110804660,true,6110804660,Good,true,true,,,75K–99K
+EMP1271,Alice,Garcia,40,false,HR,Florida,Active,,98335.02,alice.garcia@example.com,2392312603,true,2392312603,Excellent,false,true,,,75K–99K
+EMP1516,Alice,Garcia,35,false,Sales,New York,Active,,50288.67,alice.garcia@example.com,61558107,false,,Excellent,false,true,,,50K–74K
+EMP1042,Alice,Johnson,,true,HR,Nevada,Active,,59400.38,alice.johnson@example.com,4918017225,true,4918017225,Average,true,true,,,50K–74K
+EMP1102,Alice,Johnson,35,false,Finance,Texas,Active,,84422.26,alice.johnson@example.com,9141612845,true,9141612845,Average,false,true,,,75K–99K
+EMP1225,Alice,Johnson,35,false,Admin,Texas,Active,,52933.42,alice.johnson@example.com,6756618442,true,6756618442,Poor,true,true,,,50K–74K
+EMP1420,Alice,Johnson,25,false,Cloud Tech,New York,Active,,75478.35,alice.johnson@example.com,6128758574,true,6128758574,Excellent,false,true,,,75K–99K
+EMP1529,Alice,Johnson,25,false,DevOps,Texas,Active,,90190.69,alice.johnson@example.com,4520599603,true,4520599603,Poor,true,true,,,75K–99K
+EMP1635,Alice,Johnson,35,false,Admin,Nevada,Active,,56079.0,alice.johnson@example.com,5878444834,true,5878444834,Average,true,true,,,50K–74K
+EMP1694,Alice,Johnson,25,false,HR,Nevada,Active,,87544.73,alice.johnson@example.com,4501848196,true,4501848196,Good,false,true,,,75K–99K
+EMP1546,Alice,Jones,25,false,Finance,Florida,Active,,88436.92,alice.jones@example.com,8193242686,true,8193242686,Excellent,false,true,,,75K–99K
+EMP1048,Alice,Miller,35,false,Admin,Nevada,Active,,57195.55,alice.miller@example.com,6831472759,true,6831472759,Excellent,false,true,,,50K–74K
+EMP1182,Alice,Miller,30,false,HR,New York,Active,,67886.37,alice.miller@example.com,3910257431,true,3910257431,Poor,false,true,,,50K–74K
+EMP1222,Alice,Miller,35,false,Cloud Tech,California,Active,,95997.31,alice.miller@example.com,4209548148,true,4209548148,Average,false,true,,,75K–99K
+EMP1309,Alice,Miller,30,false,Sales,California,Active,,114147.79,alice.miller@example.com,3135030586,true,3135030586,Excellent,false,true,,,100K–124K
+EMP1431,Alice,Miller,40,false,DevOps,New York,Active,,68269.37,alice.miller@example.com,7744197545,true,7744197545,Excellent,false,true,,,50K–74K
+EMP1161,Alice,Smith,30,false,HR,Texas,Active,,79467.24,alice.smith@example.com,7430271692,true,7430271692,Poor,false,true,,,75K–99K
+EMP1300,Alice,Smith,30,false,Sales,Texas,Active,,74117.02,alice.smith@example.com,3036625435,true,3036625435,Poor,false,true,,,50K–74K
+EMP1377,Alice,Smith,35,false,Cloud Tech,Florida,Active,,107065.12,alice.smith@example.com,1849196654,true,1849196654,Average,false,true,,,100K–124K
+EMP1492,Alice,Smith,30,false,Admin,New York,Active,,52314.97,alice.smith@example.com,5999101575,true,5999101575,Excellent,false,true,,,50K–74K
+EMP1498,Alice,Smith,40,false,Admin,Nevada,Active,,106060.54,alice.smith@example.com,4214477323,true,4214477323,Poor,false,true,,,100K–124K
+EMP1630,Alice,Smith,30,false,Finance,Nevada,Active,,56376.2,alice.smith@example.com,1312840332,true,1312840332,Average,true,true,,,50K–74K
+EMP1177,Alice,Williams,25,false,DevOps,Illinois,Active,,79388.27,alice.williams@example.com,5063731494,true,5063731494,Average,true,true,,,75K–99K
+EMP1183,Alice,Williams,40,false,DevOps,Florida,Active,,76614.52,alice.williams@example.com,6303975244,true,6303975244,Good,true,true,,,75K–99K
+EMP1285,Alice,Williams,35,false,Sales,Illinois,Active,,69919.32,alice.williams@example.com,2939087883,true,2939087883,Average,true,true,,,50K–74K
+EMP1423,Alice,Williams,30,false,Admin,Illinois,Active,,54824.85,alice.williams@example.com,9406260786,true,9406260786,Average,false,true,,,50K–74K
+EMP1716,Alice,Williams,,true,Admin,California,Active,,118907.61,alice.williams@example.com,4546553584,true,4546553584,Excellent,true,true,,,100K–124K
+EMP1744,Alice,Williams,,true,HR,New York,Active,,112802.27,alice.williams@example.com,63140351,false,,Excellent,false,true,,,100K–124K
+EMP1001,Bob,Brown,,true,Finance,Texas,Active,,65304.66,bob.brown@example.com,1898471390,true,1898471390,Excellent,true,true,,,50K–74K
+EMP1370,Bob,Brown,,true,Cloud Tech,Illinois,Active,,72818.94,bob.brown@example.com,3461994236,true,3461994236,Good,true,true,,,50K–74K
+EMP1888,Bob,Brown,30,false,DevOps,Florida,Active,,112395.56,bob.brown@example.com,7894896339,true,7894896339,Good,false,true,,,100K–124K
+EMP1000,Bob,Davis,25,false,DevOps,California,Active,,59767.65,bob.davis@example.com,1651623197,true,1651623197,Average,true,true,,,50K–74K
+EMP1041,Bob,Davis,30,false,HR,California,Active,,108362.15,bob.davis@example.com,8186617944,true,8186617944,Excellent,false,true,,,100K–124K
+EMP1170,Bob,Garcia,35,false,Admin,Illinois,Active,,116963.72,bob.garcia@example.com,9124186209,true,9124186209,Average,true,true,,,100K–124K
+EMP1607,Bob,Garcia,,true,HR,Florida,Active,,78408.95,bob.garcia@example.com,4085721695,true,4085721695,Excellent,true,true,,,75K–99K
+EMP1733,Bob,Garcia,25,false,DevOps,Texas,Active,,114871.08,bob.garcia@example.com,4415298216,true,4415298216,Average,false,true,,,100K–124K
+EMP1806,Bob,Garcia,40,false,Sales,New York,Active,,106164.53,bob.garcia@example.com,7563353573,true,7563353573,Good,false,true,,,100K–124K
+EMP1578,Bob,Johnson,30,false,DevOps,Nevada,Active,,97978.36,bob.johnson@example.com,5580996131,true,5580996131,Poor,true,true,,,75K–99K
+EMP1583,Bob,Johnson,,true,Cloud Tech,Nevada,Active,,114963.34,bob.johnson@example.com,6046419784,true,6046419784,Excellent,false,true,,,100K–124K
+EMP1863,Bob,Johnson,35,false,Sales,California,Active,,82174.75,bob.johnson@example.com,7730626041,true,7730626041,Excellent,false,true,,,75K–99K
+EMP1021,Bob,Jones,40,false,Cloud Tech,Illinois,Active,,96182.56,bob.jones@example.com,5990048963,true,5990048963,Good,false,true,,,75K–99K
+EMP1121,Bob,Jones,25,false,DevOps,Illinois,Active,,61086.47,bob.jones@example.com,9639907675,true,9639907675,Excellent,true,true,,,50K–74K
+EMP1668,Bob,Jones,30,false,Admin,Florida,Active,,54465.47,bob.jones@example.com,7045023289,true,7045023289,Excellent,false,true,,,50K–74K
+EMP1681,Bob,Jones,30,false,Admin,California,Active,,81874.01,bob.jones@example.com,9775396736,true,9775396736,Good,true,true,,,75K–99K
+EMP1692,Bob,Jones,40,false,Admin,Texas,Active,,104843.27,bob.jones@example.com,3626693350,true,3626693350,Excellent,false,true,,,100K–124K
+EMP1775,Bob,Jones,25,false,Cloud Tech,Florida,Active,,97046.33,bob.jones@example.com,7102676719,true,7102676719,Good,false,true,,,75K–99K
+EMP1911,Bob,Jones,25,false,Admin,California,Active,,60356.78,bob.jones@example.com,2305248087,true,2305248087,Poor,true,true,,,50K–74K
+EMP1966,Bob,Jones,35,false,Admin,California,Active,,109082.07,bob.jones@example.com,8811210313,true,8811210313,Good,false,true,,,100K–124K
+EMP2010,Bob,Jones,35,false,Sales,Nevada,Active,,71148.27,bob.jones@example.com,8307482072,true,8307482072,Average,false,true,,,50K–74K
+EMP1020,Bob,Miller,35,false,HR,New York,Active,,111460.67,bob.miller@example.com,9411800536,true,9411800536,Excellent,true,true,,,100K–124K
+EMP1086,Bob,Miller,35,false,DevOps,Illinois,Active,,118869.1,bob.miller@example.com,7725199662,true,7725199662,Excellent,true,true,,,100K–124K
+EMP1098,Bob,Miller,,true,DevOps,New York,Active,,101702.33,bob.miller@example.com,3824967182,true,3824967182,Excellent,false,true,,,100K–124K
+EMP1409,Bob,Miller,25,false,Sales,Texas,Active,,65102.01,bob.miller@example.com,3136148781,true,3136148781,Average,true,true,,,50K–74K
+EMP1456,Bob,Miller,35,false,HR,California,Active,,101264.64,bob.miller@example.com,1955356032,true,1955356032,Average,false,true,,,100K–124K
+EMP1948,Bob,Miller,40,false,Finance,Texas,Active,,,bob.miller@example.com,109121721,false,,Excellent,true,true,,,Unknown
+EMP1031,Bob,Smith,25,false,DevOps,Illinois,Active,,114845.69,bob.smith@example.com,6591520176,true,6591520176,Excellent,true,true,,,100K–124K
+EMP1165,Bob,Smith,35,false,Sales,New York,Active,,69251.12,bob.smith@example.com,4841376814,true,4841376814,Poor,true,true,,,50K–74K
+EMP1374,Bob,Smith,30,false,HR,Nevada,Active,,77192.43,bob.smith@example.com,2562531354,true,2562531354,Excellent,false,true,,,75K–99K
+EMP1430,Bob,Smith,,true,Cloud Tech,Illinois,Active,,107397.4,bob.smith@example.com,6202232882,true,6202232882,Poor,false,true,,,100K–124K
+EMP1510,Bob,Smith,40,false,Admin,Illinois,Active,,97648.84,bob.smith@example.com,1314675360,true,1314675360,Good,false,true,,,75K–99K
+EMP1972,Bob,Smith,,true,Finance,Florida,Active,,96346.53,bob.smith@example.com,7876553006,true,7876553006,Average,true,true,,,75K–99K
+EMP1340,Bob,Williams,,true,DevOps,California,Active,,80596.18,bob.williams@example.com,2146147682,true,2146147682,Good,false,true,,,75K–99K
+EMP1439,Bob,Williams,,true,Sales,California,Active,,119801.3,bob.williams@example.com,7753312660,true,7753312660,Average,true,true,,,100K–124K
+EMP1526,Bob,Williams,,true,DevOps,Illinois,Active,,57980.88,bob.williams@example.com,6375791451,true,6375791451,Poor,false,true,,,50K–74K
+EMP1619,Bob,Williams,25,false,Finance,Nevada,Active,,,bob.williams@example.com,7494902283,true,7494902283,Good,false,true,,,Unknown
+EMP1721,Bob,Williams,,true,DevOps,California,Active,,106583.88,bob.williams@example.com,1494097625,true,1494097625,Good,true,true,,,100K–124K
+EMP1811,Bob,Williams,35,false,Sales,Nevada,Active,,71148.27,bob.williams@example.com,3055978244,true,3055978244,Excellent,true,true,,,50K–74K
+EMP1910,Bob,Williams,30,false,Finance,Texas,Active,,112856.21,bob.williams@example.com,4281785227,true,4281785227,Poor,false,true,,,100K–124K
+EMP1032,Charlie,Brown,40,false,Finance,Florida,Active,,78072.82,charlie.brown@example.com,7490509758,true,7490509758,Average,false,true,,,75K–99K
+EMP1159,Charlie,Brown,,true,Cloud Tech,California,Active,,87815.08,charlie.brown@example.com,1286716322,true,1286716322,Average,true,true,,,75K–99K
+EMP1479,Charlie,Brown,25,false,Finance,New York,Active,,106592.25,charlie.brown@example.com,4205955656,true,4205955656,Average,true,true,,,100K–124K
+EMP1594,Charlie,Brown,25,false,HR,New York,Active,,101787.14,charlie.brown@example.com,5973642479,true,5973642479,Good,false,true,,,100K–124K
+EMP1602,Charlie,Brown,,true,Admin,Florida,Active,,89645.01,charlie.brown@example.com,9596604872,true,9596604872,Good,true,true,,,75K–99K
+EMP1612,Charlie,Brown,30,false,DevOps,Illinois,Active,,90058.85,charlie.brown@example.com,397739731,false,,Poor,false,true,,,75K–99K
+EMP1693,Charlie,Brown,35,false,Cloud Tech,New York,Active,,56398.11,charlie.brown@example.com,3426192371,true,3426192371,Excellent,false,true,,,50K–74K
+EMP1918,Charlie,Brown,,true,HR,New York,Active,,99567.78,charlie.brown@example.com,5057303626,true,5057303626,Good,true,true,,,75K–99K
+EMP1951,Charlie,Brown,30,false,HR,New York,Active,,118677.67,charlie.brown@example.com,5100462775,true,5100462775,Excellent,false,true,,,100K–124K
+EMP1241,Charlie,Davis,30,false,HR,Illinois,Active,,118959.28,charlie.davis@example.com,9839542960,true,9839542960,Average,true,true,,,100K–124K
+EMP1297,Charlie,Davis,35,false,Sales,Florida,Active,,64378.1,charlie.davis@example.com,1851327971,true,1851327971,Poor,false,true,,,50K–74K
+EMP1438,Charlie,Davis,25,false,Cloud Tech,Texas,Active,,63869.31,charlie.davis@example.com,9961002310,true,9961002310,Good,false,true,,,50K–74K
+EMP1448,Charlie,Davis,25,false,Admin,Nevada,Active,,87358.27,charlie.davis@example.com,5124189388,true,5124189388,Poor,false,true,,,75K–99K
+EMP1618,Charlie,Davis,40,false,Sales,Illinois,Active,,104870.78,charlie.davis@example.com,5177345474,true,5177345474,Excellent,true,true,,,100K–124K
+EMP1891,Charlie,Davis,25,false,DevOps,Illinois,Active,,59555.1,charlie.davis@example.com,4216309000,true,4216309000,Good,true,true,,,50K–74K
+EMP1921,Charlie,Davis,35,false,Finance,Illinois,Active,,71109.18,charlie.davis@example.com,3214505765,true,3214505765,Poor,true,true,,,50K–74K
+EMP1144,Charlie,Garcia,25,false,DevOps,Nevada,Active,,105202.73,charlie.garcia@example.com,7895677664,true,7895677664,Excellent,true,true,,,100K–124K
+EMP1315,Charlie,Garcia,40,false,Admin,California,Active,,95269.41,charlie.garcia@example.com,4120092819,true,4120092819,Good,true,true,,,75K–99K
+EMP1791,Charlie,Garcia,,true,Sales,Florida,Active,,58179.12,charlie.garcia@example.com,4289311324,true,4289311324,Excellent,false,true,,,50K–74K
+EMP1883,Charlie,Garcia,40,false,Finance,New York,Active,,114587.11,charlie.garcia@example.com,6449639242,true,6449639242,Excellent,true,true,,,100K–124K
+EMP1919,Charlie,Garcia,30,false,Admin,Texas,Active,,90216.76,charlie.garcia@example.com,9246320373,true,9246320373,Average,true,true,,,75K–99K
+EMP1970,Charlie,Garcia,25,false,Cloud Tech,Nevada,Active,,54776.01,charlie.garcia@example.com,8837505660,true,8837505660,Poor,false,true,,,50K–74K
+EMP1009,Charlie,Johnson,,true,DevOps,New York,Active,,76561.88,charlie.johnson@example.com,8156985699,true,8156985699,Excellent,true,true,,,75K–99K
+EMP1070,Charlie,Johnson,40,false,Finance,California,Active,,94636.3,charlie.johnson@example.com,7563410855,true,7563410855,Poor,false,true,,,75K–99K
+EMP1363,Charlie,Johnson,35,false,Cloud Tech,Florida,Active,,79118.28,charlie.johnson@example.com,7536170616,true,7536170616,Poor,true,true,,,75K–99K
+EMP1514,Charlie,Johnson,,true,Admin,Florida,Active,,93013.58,charlie.johnson@example.com,4735047638,true,4735047638,Average,true,true,,,75K–99K
+EMP1528,Charlie,Johnson,25,false,Sales,Florida,Active,,115318.7,charlie.johnson@example.com,6978930745,true,6978930745,Excellent,false,true,,,100K–124K
+EMP1543,Charlie,Johnson,25,false,Finance,California,Active,,117910.15,charlie.johnson@example.com,3192227050,true,3192227050,Good,false,true,,,100K–124K
+EMP1212,Charlie,Jones,35,false,Finance,Illinois,Active,,80623.08,charlie.jones@example.com,5671649327,true,5671649327,Excellent,true,true,,,75K–99K
+EMP1468,Charlie,Jones,,true,Finance,New York,Active,,73176.62,charlie.jones@example.com,6018648768,true,6018648768,Excellent,false,true,,,50K–74K
+EMP1645,Charlie,Jones,40,false,HR,California,Active,,68835.3,charlie.jones@example.com,3398741131,true,3398741131,Good,true,true,,,50K–74K
+EMP1704,Charlie,Jones,30,false,Cloud Tech,New York,Active,,63413.16,charlie.jones@example.com,5146074554,true,5146074554,Good,true,true,,,50K–74K
+EMP1770,Charlie,Jones,25,false,Admin,New York,Active,,,charlie.jones@example.com,2759980110,true,2759980110,Excellent,true,true,,,Unknown
+EMP1796,Charlie,Jones,25,false,Sales,Nevada,Active,,100719.94,charlie.jones@example.com,5757475832,true,5757475832,Good,false,true,,,100K–124K
+EMP1893,Charlie,Jones,,true,Sales,New York,Active,,109988.16,charlie.jones@example.com,9485320894,true,9485320894,Good,true,true,,,100K–124K
+EMP2007,Charlie,Jones,35,false,DevOps,Texas,Active,,69146.95,charlie.jones@example.com,6811872332,true,6811872332,Poor,false,true,,,50K–74K
+EMP1513,Charlie,Miller,35,false,DevOps,Texas,Active,,69146.95,charlie.miller@example.com,5456676639,true,5456676639,Excellent,false,true,,,50K–74K
+EMP1603,Charlie,Miller,40,false,HR,Texas,Active,,84134.95,charlie.miller@example.com,6826911632,true,6826911632,Poor,true,true,,,75K–99K
+EMP1869,Charlie,Miller,,true,Admin,Texas,Active,,59911.33,charlie.miller@example.com,8471296179,true,8471296179,Excellent,true,true,,,50K–74K
+EMP1896,Charlie,Miller,,true,Cloud Tech,Florida,Active,,119389.15,charlie.miller@example.com,9223410345,true,9223410345,Poor,false,true,,,100K–124K
+EMP1331,Charlie,Smith,25,false,Cloud Tech,Illinois,Active,,63435.24,charlie.smith@example.com,4721970545,true,4721970545,Poor,false,true,,,50K–74K
+EMP1415,Charlie,Smith,25,false,Cloud Tech,Nevada,Active,,50794.54,charlie.smith@example.com,425488213,false,,Good,true,true,,,50K–74K
+EMP1442,Charlie,Smith,35,false,HR,Florida,Active,,92987.46,charlie.smith@example.com,4774332682,true,4774332682,Excellent,true,true,,,75K–99K
+EMP1633,Charlie,Smith,40,false,Finance,Texas,Active,,95981.9,charlie.smith@example.com,9749096172,true,9749096172,Average,true,true,,,75K–99K
+EMP1732,Charlie,Smith,40,false,Cloud Tech,New York,Active,,76167.46,charlie.smith@example.com,7282709080,true,7282709080,Good,false,true,,,75K–99K
+EMP1179,Charlie,Williams,,true,Cloud Tech,Nevada,Active,,81017.91,charlie.williams@example.com,2419562524,true,2419562524,Excellent,true,true,,,75K–99K
+EMP1220,Charlie,Williams,25,false,Sales,California,Active,,88085.74,charlie.williams@example.com,5528993159,true,5528993159,Excellent,true,true,,,75K–99K
+EMP1455,Charlie,Williams,25,false,Sales,California,Active,,99317.66,charlie.williams@example.com,662668216,false,,Poor,false,true,,,75K–99K
+EMP1657,Charlie,Williams,30,false,Finance,Texas,Active,,84971.85,charlie.williams@example.com,7860694095,true,7860694095,Average,false,true,,,75K–99K
+EMP1999,Charlie,Williams,25,false,DevOps,Florida,Active,,110170.88,charlie.williams@example.com,8821458413,true,8821458413,Poor,true,true,,,100K–124K
+EMP2017,Charlie,Williams,40,false,Finance,New York,Active,,114587.11,charlie.williams@example.com,1261632487,true,1261632487,Average,false,true,,,100K–124K
+EMP1295,David,Brown,30,false,DevOps,Illinois,Active,,81272.36,david.brown@example.com,1820916600,true,1820916600,Poor,false,true,,,75K–99K
+EMP1395,David,Brown,30,false,DevOps,California,Active,,115290.79,david.brown@example.com,1563268684,true,1563268684,Poor,false,true,,,100K–124K
+EMP1719,David,Brown,30,false,HR,California,Active,,77985.88,david.brown@example.com,9079779611,true,9079779611,Average,true,true,,,75K–99K
+EMP1956,David,Brown,,true,Sales,Texas,Active,,,david.brown@example.com,5848689992,true,5848689992,Average,true,true,,,Unknown
+EMP1011,David,Davis,,true,DevOps,California,Active,,84946.19,david.davis@example.com,1238296576,true,1238296576,Poor,true,true,,,75K–99K
+EMP1064,David,Davis,35,false,Admin,New York,Active,,53234.96,david.davis@example.com,3754821455,true,3754821455,Good,false,true,,,50K–74K
+EMP1219,David,Davis,30,false,HR,Florida,Active,,74697.12,david.davis@example.com,6904098365,true,6904098365,Average,true,true,,,50K–74K
+EMP1283,David,Davis,,true,DevOps,Nevada,Active,,79251.95,david.davis@example.com,9036788126,true,9036788126,Good,false,true,,,75K–99K
+EMP1465,David,Davis,30,false,Finance,Texas,Active,,51405.46,david.davis@example.com,4967066702,true,4967066702,Average,true,true,,,50K–74K
+EMP1656,David,Davis,25,false,DevOps,California,Active,,80255.31,david.davis@example.com,6477251294,true,6477251294,Average,false,true,,,75K–99K
+EMP1328,David,Garcia,25,false,DevOps,New York,Active,,85401.3,david.garcia@example.com,9912971023,true,9912971023,Poor,true,true,,,75K–99K
+EMP1475,David,Garcia,35,false,Sales,Texas,Active,,98752.97,david.garcia@example.com,2290310286,true,2290310286,Excellent,false,true,,,75K–99K
+EMP1567,David,Garcia,30,false,HR,Florida,Active,,55212.83,david.garcia@example.com,7551254277,true,7551254277,Excellent,true,true,,,50K–74K
+EMP1367,David,Johnson,,true,Admin,Illinois,Active,,89189.43,david.johnson@example.com,882351304,false,,Poor,true,true,,,75K–99K
+EMP1082,David,Jones,25,false,Sales,New York,Active,,83149.27,david.jones@example.com,8215454469,true,8215454469,Poor,true,true,,,75K–99K
+EMP1592,David,Jones,25,false,HR,Illinois,Active,,72245.02,david.jones@example.com,1546602415,true,1546602415,Poor,true,true,,,50K–74K
+EMP1646,David,Jones,40,false,DevOps,New York,Active,,66943.96,david.jones@example.com,5797067348,true,5797067348,Poor,true,true,,,50K–74K
+EMP1866,David,Jones,25,false,DevOps,Illinois,Active,,77213.73,david.jones@example.com,5816704685,true,5816704685,Good,false,true,,,75K–99K
+EMP1051,David,Miller,35,false,Admin,Nevada,Active,,111051.67,david.miller@example.com,7998407677,true,7998407677,Good,false,true,,,100K–124K
+EMP1094,David,Miller,40,false,Finance,Illinois,Active,,83326.52,david.miller@example.com,2004615264,true,2004615264,Average,true,true,,,75K–99K
+EMP1453,David,Miller,25,false,Sales,Florida,Active,,114252.73,david.miller@example.com,1078356742,true,1078356742,Good,false,true,,,100K–124K
+EMP1517,David,Miller,35,false,HR,New York,Active,,85233.55,david.miller@example.com,3583286341,true,3583286341,Good,true,true,,,75K–99K
+EMP2015,David,Miller,30,false,HR,California,Active,,,david.miller@example.com,3546212759,true,3546212759,Good,true,true,,,Unknown
+EMP1247,David,Smith,35,false,Sales,California,Active,,63741.13,david.smith@example.com,1128497184,true,1128497184,Poor,true,true,,,50K–74K
+EMP1403,David,Smith,25,false,Cloud Tech,New York,Active,,101100.64,david.smith@example.com,5024120956,true,5024120956,Average,false,true,,,100K–124K
+EMP1426,David,Smith,,true,Admin,New York,Active,,51673.72,david.smith@example.com,8723244078,true,8723244078,Poor,false,true,,,50K–74K
+EMP1505,David,Smith,35,false,DevOps,Nevada,Active,,87424.46,david.smith@example.com,32963346,false,,Average,true,true,,,75K–99K
+EMP1996,David,Smith,40,false,Admin,Texas,Active,,51939.29,david.smith@example.com,2442607818,true,2442607818,Excellent,true,true,,,50K–74K
+EMP1010,David,Williams,35,false,Cloud Tech,New York,Active,,72081.71,david.williams@example.com,2720634590,true,2720634590,Average,false,true,,,50K–74K
+EMP1269,David,Williams,25,false,Sales,Florida,Active,,94031.77,david.williams@example.com,4716392822,true,4716392822,Excellent,true,true,,,75K–99K
+EMP1368,David,Williams,40,false,DevOps,New York,Active,,96011.55,david.williams@example.com,2312447314,true,2312447314,Average,true,true,,,75K–99K
+EMP1882,David,Williams,40,false,DevOps,Nevada,Active,,53714.83,david.williams@example.com,5539354357,true,5539354357,Excellent,true,true,,,50K–74K
+EMP1899,David,Williams,30,false,HR,California,Active,,,david.williams@example.com,6855078966,true,6855078966,Excellent,true,true,,,Unknown
+EMP1044,Eva,Brown,,true,Finance,California,Active,,94399.91,eva.brown@example.com,5232194167,true,5232194167,Good,true,true,,,75K–99K
+EMP1055,Eva,Brown,30,false,Sales,California,Active,,91759.99,eva.brown@example.com,3959724664,true,3959724664,Excellent,true,true,,,75K–99K
+EMP1405,Eva,Brown,25,false,DevOps,California,Active,,92484.88,eva.brown@example.com,3882211456,true,3882211456,Good,true,true,,,75K–99K
+EMP1674,Eva,Brown,35,false,Finance,Illinois,Active,,56268.78,eva.brown@example.com,3161177686,true,3161177686,Excellent,false,true,,,50K–74K
+EMP1773,Eva,Brown,,true,DevOps,Illinois,Active,,62938.8,eva.brown@example.com,4418222617,true,4418222617,Average,false,true,,,50K–74K
+EMP1982,Eva,Brown,25,false,HR,New York,Active,,72828.18,eva.brown@example.com,6046154020,true,6046154020,Good,false,true,,,50K–74K
+EMP1138,Eva,Davis,40,false,HR,Nevada,Active,,82567.73,eva.davis@example.com,4253042896,true,4253042896,Poor,true,true,,,75K–99K
+EMP1188,Eva,Davis,35,false,Admin,California,Active,,85733.83,eva.davis@example.com,2336293448,true,2336293448,Excellent,true,true,,,75K–99K
+EMP1190,Eva,Davis,30,false,Admin,Illinois,Active,,103140.67,eva.davis@example.com,7689627065,true,7689627065,Excellent,false,true,,,100K–124K
+EMP1345,Eva,Davis,40,false,HR,California,Active,,56110.81,eva.davis@example.com,7279103367,true,7279103367,Good,false,true,,,50K–74K
+EMP1349,Eva,Davis,40,false,Admin,Texas,Active,,69317.33,eva.davis@example.com,5289286645,true,5289286645,Good,false,true,,,50K–74K
+EMP1650,Eva,Davis,40,false,Admin,Illinois,Active,,86801.48,eva.davis@example.com,4884021556,true,4884021556,Good,false,true,,,75K–99K
+EMP1820,Eva,Davis,40,false,DevOps,California,Active,,50568.35,eva.davis@example.com,2218231554,true,2218231554,Good,true,true,,,50K–74K
+EMP1843,Eva,Davis,40,false,DevOps,Illinois,Active,,97845.7,eva.davis@example.com,5778255881,true,5778255881,Good,true,true,,,75K–99K
+EMP1903,Eva,Davis,,true,Sales,Illinois,Active,,97926.56,eva.davis@example.com,5607676163,true,5607676163,Average,true,true,,,75K–99K
+EMP1110,Eva,Garcia,30,false,Cloud Tech,Texas,Active,,71532.83,eva.garcia@example.com,8728399920,true,8728399920,Good,true,true,,,50K–74K
+EMP1143,Eva,Garcia,30,false,Sales,California,Active,,63309.24,eva.garcia@example.com,1214785389,true,1214785389,Good,false,true,,,50K–74K
+EMP1639,Eva,Garcia,30,false,Finance,Illinois,Active,,55067.02,eva.garcia@example.com,5871493924,true,5871493924,Poor,true,true,,,50K–74K
+EMP1708,Eva,Garcia,,true,Cloud Tech,Nevada,Active,,71273.32,eva.garcia@example.com,2634755751,true,2634755751,Good,false,true,,,50K–74K
+EMP1566,Eva,Johnson,30,false,Sales,Florida,Active,,99324.03,eva.johnson@example.com,9690515025,true,9690515025,Excellent,false,true,,,75K–99K
+EMP1734,Eva,Johnson,25,false,HR,Nevada,Active,,81504.31,eva.johnson@example.com,3929578670,true,3929578670,Excellent,false,true,,,75K–99K
+EMP1752,Eva,Johnson,,true,Sales,Illinois,Active,,66252.78,eva.johnson@example.com,1369572789,true,1369572789,Excellent,true,true,,,50K–74K
+EMP1916,Eva,Johnson,,true,Admin,California,Active,,68200.52,eva.johnson@example.com,6486287202,true,6486287202,Average,true,true,,,50K–74K
+EMP1099,Eva,Jones,25,false,Admin,California,Active,,,eva.jones@example.com,2582386869,true,2582386869,Good,false,true,,,Unknown
+EMP1135,Eva,Jones,25,false,Cloud Tech,California,Active,,75092.43,eva.jones@example.com,1534735527,true,1534735527,Excellent,true,true,,,75K–99K
+EMP1229,Eva,Jones,25,false,DevOps,Florida,Active,,92171.73,eva.jones@example.com,7201859625,true,7201859625,Poor,false,true,,,75K–99K
+EMP1383,Eva,Jones,35,false,Cloud Tech,Florida,Active,,106832.22,eva.jones@example.com,7715910299,true,7715910299,Good,true,true,,,100K–124K
+EMP1596,Eva,Jones,40,false,Sales,Texas,Active,,92463.94,eva.jones@example.com,2447951329,true,2447951329,Average,true,true,,,75K–99K
+EMP1743,Eva,Jones,30,false,Sales,California,Active,,68037.56,eva.jones@example.com,7235137398,true,7235137398,Average,false,true,,,50K–74K
+EMP1751,Eva,Jones,30,false,Admin,Texas,Active,,51833.88,eva.jones@example.com,771130620,false,,Average,true,true,,,50K–74K
+EMP1844,Eva,Jones,30,false,Sales,Florida,Active,,114905.58,eva.jones@example.com,5562965753,true,5562965753,Poor,false,true,,,100K–124K
+EMP1941,Eva,Jones,30,false,Sales,Texas,Active,,82273.08,eva.jones@example.com,7120072023,true,7120072023,Excellent,false,true,,,75K–99K
+EMP1208,Eva,Miller,40,false,Admin,Illinois,Active,,117591.76,eva.miller@example.com,5356690550,true,5356690550,Good,false,true,,,100K–124K
+EMP1381,Eva,Miller,,true,HR,Illinois,Active,,100328.62,eva.miller@example.com,501716444,false,,Average,true,true,,,100K–124K
+EMP1397,Eva,Miller,30,false,Finance,Nevada,Active,,56662.86,eva.miller@example.com,3629489785,true,3629489785,Average,true,true,,,50K–74K
+EMP1481,Eva,Miller,35,false,DevOps,Texas,Active,,88945.49,eva.miller@example.com,1935889535,true,1935889535,Good,false,true,,,75K–99K
+EMP1867,Eva,Miller,40,false,Sales,Florida,Active,,73749.96,eva.miller@example.com,1114576831,true,1114576831,Poor,true,true,,,50K–74K
+EMP1463,Eva,Smith,25,false,DevOps,Texas,Active,,80675.41,eva.smith@example.com,8315203770,true,8315203770,Excellent,false,true,,,75K–99K
+EMP1581,Eva,Smith,,true,Cloud Tech,Illinois,Active,,78534.29,eva.smith@example.com,2681715159,true,2681715159,Average,true,true,,,75K–99K
+EMP1785,Eva,Smith,,true,Sales,California,Active,,98008.51,eva.smith@example.com,8102131250,true,8102131250,Average,false,true,,,75K–99K
+EMP1802,Eva,Smith,,true,Admin,New York,Active,,92928.4,eva.smith@example.com,6627051156,true,6627051156,Poor,true,true,,,75K–99K
+EMP1961,Eva,Smith,,true,DevOps,Texas,Active,,84559.9,eva.smith@example.com,6060148859,true,6060148859,Poor,false,true,,,75K–99K
+EMP1039,Eva,Williams,40,false,HR,Texas,Active,,93481.15,eva.williams@example.com,8147617421,true,8147617421,Poor,false,true,,,75K–99K
+EMP1147,Eva,Williams,35,false,Cloud Tech,Florida,Active,,102790.6,eva.williams@example.com,1150835353,true,1150835353,Good,false,true,,,100K–124K
+EMP1172,Eva,Williams,,true,HR,California,Active,,85518.88,eva.williams@example.com,816470899,false,,Excellent,false,true,,,75K–99K
+EMP1291,Eva,Williams,35,false,DevOps,New York,Active,,58275.74,eva.williams@example.com,3735439626,true,3735439626,Good,false,true,,,50K–74K
+EMP1337,Eva,Williams,,true,Sales,Nevada,Active,,115013.65,eva.williams@example.com,7371470826,true,7371470826,Average,false,true,,,100K–124K
+EMP1534,Eva,Williams,25,false,HR,California,Active,,78054.43,eva.williams@example.com,4485959223,true,4485959223,Poor,true,true,,,75K–99K
+EMP1799,Eva,Williams,30,false,HR,New York,Active,,69365.47,eva.williams@example.com,2650622922,true,2650622922,Average,true,true,,,50K–74K
+EMP1969,Eva,Williams,30,false,Finance,Texas,Active,,84253.9,eva.williams@example.com,8409112251,true,8409112251,Excellent,true,true,,,75K–99K
+EMP1197,Frank,Brown,25,false,Sales,Nevada,Active,,67342.06,frank.brown@example.com,2497243991,true,2497243991,Good,true,true,,,50K–74K
+EMP1608,Frank,Brown,40,false,Finance,Illinois,Active,,111742.4,frank.brown@example.com,6630932997,true,6630932997,Average,true,true,,,100K–124K
+EMP1768,Frank,Brown,,true,DevOps,New York,Active,,60122.52,frank.brown@example.com,8627036923,true,8627036923,Excellent,true,true,,,50K–74K
+EMP1814,Frank,Brown,,true,DevOps,New York,Active,,96872.36,frank.brown@example.com,4324006156,true,4324006156,Poor,false,true,,,75K–99K
+EMP1318,Frank,Davis,35,false,Cloud Tech,New York,Active,,58212.13,frank.davis@example.com,3628917755,true,3628917755,Good,false,true,,,50K–74K
+EMP1604,Frank,Davis,30,false,Cloud Tech,Nevada,Active,,113540.83,frank.davis@example.com,1942268652,true,1942268652,Good,true,true,,,100K–124K
+EMP1789,Frank,Davis,,true,Sales,Texas,Active,,97984.53,frank.davis@example.com,6583737926,true,6583737926,Good,true,true,,,75K–99K
+EMP1840,Frank,Davis,25,false,Admin,Illinois,Active,,84716.38,frank.davis@example.com,6762090143,true,6762090143,Good,false,true,,,75K–99K
+EMP1848,Frank,Davis,30,false,HR,Illinois,Active,,50593.33,frank.davis@example.com,1880819047,true,1880819047,Excellent,true,true,,,50K–74K
+EMP1056,Frank,Garcia,40,false,Sales,Illinois,Active,,112965.33,frank.garcia@example.com,7293417222,true,7293417222,Good,false,true,,,100K–124K
+EMP1118,Frank,Garcia,25,false,Finance,Illinois,Active,,110855.72,frank.garcia@example.com,1997179109,true,1997179109,Poor,false,true,,,100K–124K
+EMP1508,Frank,Garcia,25,false,Admin,California,Active,,111000.26,frank.garcia@example.com,4969357823,true,4969357823,Good,false,true,,,100K–124K
+EMP1703,Frank,Garcia,40,false,DevOps,California,Active,,86624.04,frank.garcia@example.com,9806603919,true,9806603919,Good,true,true,,,75K–99K
+EMP1788,Frank,Garcia,40,false,Finance,Nevada,Active,,86475.13,frank.garcia@example.com,1211063300,true,1211063300,Poor,true,true,,,75K–99K
+EMP1293,Frank,Johnson,,true,Admin,New York,Active,,60722.99,frank.johnson@example.com,2397240421,true,2397240421,Excellent,true,true,,,50K–74K
+EMP1638,Frank,Johnson,35,false,Admin,Illinois,Active,,115079.97,frank.johnson@example.com,5823133483,true,5823133483,Excellent,true,true,,,100K–124K
+EMP1753,Frank,Johnson,25,false,DevOps,Florida,Active,,109229.68,frank.johnson@example.com,8335090253,true,8335090253,Poor,true,true,,,100K–124K
+EMP1006,Frank,Jones,,true,Admin,Nevada,Active,,96288.43,frank.jones@example.com,4518376063,true,4518376063,Good,false,true,,,75K–99K
+EMP1384,Frank,Jones,,true,DevOps,Florida,Active,,59746.45,frank.jones@example.com,2156321357,true,2156321357,Good,true,true,,,50K–74K
+EMP1491,Frank,Jones,25,false,Sales,New York,Active,,99669.86,frank.jones@example.com,6652683414,true,6652683414,Average,false,true,,,75K–99K
+EMP1653,Frank,Jones,35,false,Sales,California,Active,,68399.43,frank.jones@example.com,8085096084,true,8085096084,Excellent,false,true,,,50K–74K
+EMP1655,Frank,Jones,40,false,HR,Florida,Active,,59179.74,frank.jones@example.com,1828197930,true,1828197930,Excellent,false,true,,,50K–74K
+EMP1809,Frank,Jones,35,false,Finance,Florida,Active,,83273.41,frank.jones@example.com,6295187793,true,6295187793,Excellent,false,true,,,75K–99K
+EMP1845,Frank,Jones,,true,DevOps,Texas,Active,,94619.69,frank.jones@example.com,2786561941,true,2786561941,Good,true,true,,,75K–99K
+EMP1926,Frank,Jones,25,false,Sales,Nevada,Active,,86850.37,frank.jones@example.com,9177680897,true,9177680897,Excellent,true,true,,,75K–99K
+EMP1949,Frank,Jones,35,false,DevOps,California,Active,,80935.65,frank.jones@example.com,1455937660,true,1455937660,Excellent,false,true,,,75K–99K
+EMP1169,Frank,Miller,30,false,DevOps,Florida,Active,,108224.03,frank.miller@example.com,1837274219,true,1837274219,Poor,true,true,,,100K–124K
+EMP1577,Frank,Miller,,true,Cloud Tech,Texas,Active,,,frank.miller@example.com,1579039234,true,1579039234,Excellent,true,true,,,Unknown
+EMP1790,Frank,Miller,25,false,Admin,California,Active,,118853.31,frank.miller@example.com,4907280122,true,4907280122,Good,false,true,,,100K–124K
+EMP1822,Frank,Miller,25,false,HR,Texas,Active,,99155.53,frank.miller@example.com,6281372142,true,6281372142,Poor,true,true,,,75K–99K
+EMP1072,Frank,Smith,,true,Cloud Tech,New York,Active,,76812.47,frank.smith@example.com,5200894345,true,5200894345,Poor,false,true,,,75K–99K
+EMP1184,Frank,Smith,25,false,Finance,Nevada,Active,,51311.91,frank.smith@example.com,864035532,false,,Excellent,false,true,,,50K–74K
+EMP1192,Frank,Smith,35,false,Admin,Florida,Active,,80954.56,frank.smith@example.com,4746897151,true,4746897151,Good,false,true,,,75K–99K
+EMP1274,Frank,Smith,35,false,Sales,Florida,Active,,69530.45,frank.smith@example.com,414545634,false,,Poor,true,true,,,50K–74K
+EMP1399,Frank,Smith,25,false,Finance,Nevada,Active,,54957.98,frank.smith@example.com,3181439665,true,3181439665,Excellent,true,true,,,50K–74K
+EMP1476,Frank,Smith,,true,Finance,Illinois,Active,,54268.86,frank.smith@example.com,9508304404,true,9508304404,Poor,true,true,,,50K–74K
+EMP1616,Frank,Smith,40,false,Sales,Illinois,Active,,76474.79,frank.smith@example.com,6876112490,true,6876112490,Excellent,true,true,,,75K–99K
+EMP1724,Frank,Smith,,true,DevOps,New York,Active,,97154.47,frank.smith@example.com,1918623391,true,1918623391,Good,true,true,,,75K–99K
+EMP1842,Frank,Smith,25,false,DevOps,California,Active,,61732.03,frank.smith@example.com,9687304518,true,9687304518,Average,true,true,,,50K–74K
+EMP1933,Frank,Smith,25,false,Sales,Florida,Active,,78662.24,frank.smith@example.com,9330674583,true,9330674583,Poor,true,true,,,75K–99K
+EMP1004,Frank,Williams,25,false,Cloud Tech,Florida,Active,,109324.61,frank.williams@example.com,1586734256,true,1586734256,Poor,false,true,,,100K–124K
+EMP1146,Frank,Williams,,true,Sales,California,Active,,113983.43,frank.williams@example.com,5148881430,true,5148881430,Excellent,true,true,,,100K–124K
+EMP1316,Frank,Williams,25,false,Sales,Nevada,Active,,68792.31,frank.williams@example.com,6678498435,true,6678498435,Average,false,true,,,50K–74K
+EMP1402,Frank,Williams,30,false,DevOps,Nevada,Active,,93125.32,frank.williams@example.com,5122572075,true,5122572075,Average,false,true,,,75K–99K
+EMP1446,Frank,Williams,40,false,HR,New York,Active,,91798.14,frank.williams@example.com,6191284116,true,6191284116,Good,false,true,,,75K–99K
+EMP1458,Frank,Williams,30,false,DevOps,Illinois,Active,,71477.63,frank.williams@example.com,102724054,false,,Good,true,true,,,50K–74K
+EMP1950,Frank,Williams,30,false,DevOps,California,Active,,107020.19,frank.williams@example.com,8943705262,true,8943705262,Excellent,false,true,,,100K–124K
+EMP1129,Grace,Brown,40,false,DevOps,Nevada,Active,,117537.71,grace.brown@example.com,9594652169,true,9594652169,Excellent,false,true,,,100K–124K
+EMP1382,Grace,Brown,25,false,DevOps,Nevada,Active,,111236.69,grace.brown@example.com,5618579063,true,5618579063,Excellent,true,true,,,100K–124K
+EMP1408,Grace,Brown,35,false,Sales,Nevada,Active,,82971.02,grace.brown@example.com,6325703964,true,6325703964,Good,false,true,,,75K–99K
+EMP1444,Grace,Brown,30,false,DevOps,Illinois,Active,,119586.11,grace.brown@example.com,9815287338,true,9815287338,Average,true,true,,,100K–124K
+EMP1480,Grace,Brown,25,false,DevOps,Florida,Active,,93905.83,grace.brown@example.com,4902504289,true,4902504289,Average,true,true,,,75K–99K
+EMP1620,Grace,Brown,,true,Finance,California,Active,,87087.16,grace.brown@example.com,359544293,false,,Poor,false,true,,,75K–99K
+EMP1631,Grace,Brown,25,false,Cloud Tech,California,Active,,55602.78,grace.brown@example.com,9977180512,true,9977180512,Good,false,true,,,50K–74K
+EMP1986,Grace,Brown,30,false,Finance,Nevada,Active,,109523.4,grace.brown@example.com,849378305,false,,Poor,true,true,,,100K–124K
+EMP1993,Grace,Brown,,true,DevOps,Nevada,Active,,64045.36,grace.brown@example.com,6847323652,true,6847323652,Poor,true,true,,,50K–74K
+EMP1080,Grace,Davis,35,false,Cloud Tech,Florida,Active,,87759.33,grace.davis@example.com,2881377027,true,2881377027,Average,false,true,,,75K–99K
+EMP1202,Grace,Davis,30,false,Sales,Nevada,Active,,89124.54,grace.davis@example.com,2252237280,true,2252237280,Excellent,true,true,,,75K–99K
+EMP1210,Grace,Davis,30,false,Admin,Illinois,Active,,67500.22,grace.davis@example.com,5797863049,true,5797863049,Average,true,true,,,50K–74K
+EMP1244,Grace,Davis,40,false,Sales,Texas,Active,,94963.7,grace.davis@example.com,2625660930,true,2625660930,Good,false,true,,,75K–99K
+EMP1256,Grace,Davis,,true,Finance,New York,Active,,72920.51,grace.davis@example.com,9097283214,true,9097283214,Excellent,true,true,,,50K–74K
+EMP1313,Grace,Davis,30,false,HR,Florida,Active,,87654.98,grace.davis@example.com,2521310961,true,2521310961,Poor,false,true,,,75K–99K
+EMP1387,Grace,Davis,25,false,HR,Nevada,Active,,110625.52,grace.davis@example.com,2967188396,true,2967188396,Excellent,true,true,,,100K–124K
+EMP1622,Grace,Davis,30,false,HR,Florida,Active,,55867.23,grace.davis@example.com,3039429044,true,3039429044,Excellent,false,true,,,50K–74K
+EMP1028,Grace,Garcia,40,false,Finance,Nevada,Active,,95741.88,grace.garcia@example.com,7712151341,true,7712151341,Excellent,false,true,,,75K–99K
+EMP1046,Grace,Garcia,,true,Cloud Tech,Texas,Active,,98371.37,grace.garcia@example.com,7499564121,true,7499564121,Excellent,false,true,,,75K–99K
+EMP1556,Grace,Garcia,40,false,Sales,Nevada,Active,,77850.9,grace.garcia@example.com,2704938619,true,2704938619,Average,true,true,,,75K–99K
+EMP1104,Grace,Johnson,,true,Sales,Illinois,Active,,86580.08,grace.johnson@example.com,5379502096,true,5379502096,Good,true,true,,,75K–99K
+EMP1343,Grace,Johnson,25,false,Sales,California,Active,,55145.47,grace.johnson@example.com,8931992549,true,8931992549,Good,false,true,,,50K–74K
+EMP1511,Grace,Johnson,25,false,Admin,New York,Active,,78643.43,grace.johnson@example.com,2751562778,true,2751562778,Good,true,true,,,75K–99K
+EMP1679,Grace,Johnson,40,false,Admin,California,Active,,93772.61,grace.johnson@example.com,4256529059,true,4256529059,Poor,false,true,,,75K–99K
+EMP1847,Grace,Johnson,40,false,DevOps,Nevada,Active,,97032.29,grace.johnson@example.com,9582923615,true,9582923615,Excellent,false,true,,,75K–99K
+EMP1074,Grace,Jones,40,false,Sales,Nevada,Active,,111645.97,grace.jones@example.com,7490753997,true,7490753997,Good,true,true,,,100K–124K
+EMP1226,Grace,Jones,,true,Finance,California,Active,,95283.03,grace.jones@example.com,8612590471,true,8612590471,Good,false,true,,,75K–99K
+EMP1675,Grace,Jones,35,false,Admin,California,Active,,86632.14,grace.jones@example.com,2904774257,true,2904774257,Poor,true,true,,,75K–99K
+EMP1049,Grace,Miller,,true,DevOps,New York,Active,,61375.12,grace.miller@example.com,1227770792,true,1227770792,Excellent,true,true,,,50K–74K
+EMP1261,Grace,Miller,25,false,Sales,Illinois,Active,,88725.6,grace.miller@example.com,5265016730,true,5265016730,Average,true,true,,,75K–99K
+EMP1270,Grace,Miller,30,false,DevOps,New York,Active,,116374.36,grace.miller@example.com,4143637188,true,4143637188,Excellent,false,true,,,100K–124K
+EMP1406,Grace,Miller,35,false,DevOps,Texas,Active,,77011.99,grace.miller@example.com,7584745704,true,7584745704,Average,true,true,,,75K–99K
+EMP1755,Grace,Miller,25,false,HR,Florida,Active,,96993.74,grace.miller@example.com,1323570712,true,1323570712,Poor,false,true,,,75K–99K
+EMP1361,Grace,Smith,35,false,Finance,Texas,Active,,68111.69,grace.smith@example.com,6404120910,true,6404120910,Poor,false,true,,,50K–74K
+EMP1572,Grace,Smith,25,false,HR,New York,Active,,73231.85,grace.smith@example.com,142576269,false,,Poor,false,true,,,50K–74K
+EMP1712,Grace,Smith,,true,HR,Nevada,Active,,119890.35,grace.smith@example.com,4991537037,true,4991537037,Average,true,true,,,100K–124K
+EMP1932,Grace,Smith,30,false,Sales,Illinois,Active,,64544.87,grace.smith@example.com,9885582983,true,9885582983,Average,true,true,,,50K–74K
+EMP1965,Grace,Smith,40,false,DevOps,Illinois,Active,,114770.32,grace.smith@example.com,4626325143,true,4626325143,Good,true,true,,,100K–124K
+EMP1013,Grace,Williams,,true,Finance,California,Active,,85666.84,grace.williams@example.com,2669300892,true,2669300892,Good,false,true,,,75K–99K
+EMP1085,Grace,Williams,40,false,DevOps,New York,Active,,98343.01,grace.williams@example.com,9756792286,true,9756792286,Poor,false,true,,,75K–99K
+EMP1153,Grace,Williams,,true,DevOps,Nevada,Active,,79041.92,grace.williams@example.com,6668459089,true,6668459089,Average,true,true,,,75K–99K
+EMP1199,Grace,Williams,35,false,DevOps,Illinois,Active,,94162.06,grace.williams@example.com,2644886945,true,2644886945,Average,true,true,,,75K–99K
+EMP1214,Grace,Williams,25,false,HR,New York,Active,,115157.81,grace.williams@example.com,7178333210,true,7178333210,Good,false,true,,,100K–124K
+EMP1264,Grace,Williams,,true,Cloud Tech,Texas,Active,,99951.43,grace.williams@example.com,7722560530,true,7722560530,Average,true,true,,,75K–99K
+EMP1496,Grace,Williams,25,false,Admin,Illinois,Active,,65494.58,grace.williams@example.com,8986456521,true,8986456521,Average,true,true,,,50K–74K
+EMP1515,Grace,Williams,40,false,Finance,Florida,Active,,87364.78,grace.williams@example.com,2831995297,true,2831995297,Good,false,true,,,75K–99K
+EMP1561,Grace,Williams,,true,HR,Florida,Active,,57452.93,grace.williams@example.com,3343244740,true,3343244740,Good,true,true,,,50K–74K
+EMP1615,Grace,Williams,,true,Admin,Illinois,Active,,96175.41,grace.williams@example.com,9807704604,true,9807704604,Average,true,true,,,75K–99K
+EMP1216,Heidi,Brown,40,false,Sales,Texas,Active,,67914.67,heidi.brown@example.com,2871539914,true,2871539914,Excellent,true,true,,,50K–74K
+EMP1234,Heidi,Brown,25,false,Admin,Texas,Active,,95161.4,heidi.brown@example.com,5182606887,true,5182606887,Excellent,false,true,,,75K–99K
+EMP1901,Heidi,Brown,30,false,DevOps,Florida,Active,,111008.63,heidi.brown@example.com,3556434368,true,3556434368,Excellent,true,true,,,100K–124K
+EMP1931,Heidi,Brown,40,false,Finance,California,Active,,100960.05,heidi.brown@example.com,2711759573,true,2711759573,Average,false,true,,,100K–124K
+EMP1168,Heidi,Davis,40,false,Finance,Nevada,Active,,79873.48,heidi.davis@example.com,41257770,false,,Average,false,true,,,75K–99K
+EMP1181,Heidi,Davis,,true,DevOps,California,Active,,77668.44,heidi.davis@example.com,8903091435,true,8903091435,Good,true,true,,,75K–99K
+EMP1512,Heidi,Davis,30,false,HR,Nevada,Active,,55656.8,heidi.davis@example.com,6304483607,true,6304483607,Good,true,true,,,50K–74K
+EMP1585,Heidi,Davis,30,false,Sales,New York,Active,,77369.48,heidi.davis@example.com,2059438975,true,2059438975,Average,false,true,,,75K–99K
+EMP1652,Heidi,Davis,35,false,DevOps,Texas,Active,,64752.67,heidi.davis@example.com,4902166669,true,4902166669,Poor,false,true,,,50K–74K
+EMP1682,Heidi,Davis,30,false,HR,Texas,Active,,117880.14,heidi.davis@example.com,9487148551,true,9487148551,Average,false,true,,,100K–124K
+EMP1112,Heidi,Garcia,40,false,Cloud Tech,Illinois,Active,,80242.01,heidi.garcia@example.com,894870604,false,,Good,true,true,,,75K–99K
+EMP1267,Heidi,Garcia,,true,HR,Florida,Active,,73186.77,heidi.garcia@example.com,8621102257,true,8621102257,Good,false,true,,,50K–74K
+EMP1273,Heidi,Garcia,,true,Finance,California,Active,,113848.69,heidi.garcia@example.com,8433567085,true,8433567085,Excellent,true,true,,,100K–124K
+EMP1531,Heidi,Garcia,35,false,HR,Florida,Active,,106922.49,heidi.garcia@example.com,8811616201,true,8811616201,Excellent,true,true,,,100K–124K
+EMP1989,Heidi,Garcia,40,false,Admin,California,Active,,107661.73,heidi.garcia@example.com,7016934291,true,7016934291,Excellent,true,true,,,100K–124K
+EMP1027,Heidi,Johnson,30,false,Finance,Florida,Active,,56785.16,heidi.johnson@example.com,2761707586,true,2761707586,Excellent,true,true,,,50K–74K
+EMP1071,Heidi,Johnson,30,false,HR,Florida,Active,,70000.97,heidi.johnson@example.com,2884318847,true,2884318847,Average,true,true,,,50K–74K
+EMP1224,Heidi,Johnson,40,false,DevOps,New York,Active,,100123.15,heidi.johnson@example.com,276420864,false,,Average,false,true,,,100K–124K
+EMP1265,Heidi,Johnson,30,false,Sales,Illinois,Active,,115195.81,heidi.johnson@example.com,3402665022,true,3402665022,Good,true,true,,,100K–124K
+EMP1742,Heidi,Johnson,40,false,DevOps,New York,Active,,97901.79,heidi.johnson@example.com,688285030,false,,Average,true,true,,,75K–99K
+EMP1877,Heidi,Johnson,25,false,Cloud Tech,Texas,Active,,99471.89,heidi.johnson@example.com,8471690617,true,8471690617,Average,true,true,,,75K–99K
+EMP1124,Heidi,Jones,,true,Admin,Florida,Active,,85576.86,heidi.jones@example.com,4567972319,true,4567972319,Poor,false,true,,,75K–99K
+EMP1154,Heidi,Jones,,true,Finance,California,Active,,75937.1,heidi.jones@example.com,2259999662,true,2259999662,Excellent,true,true,,,75K–99K
+EMP1198,Heidi,Jones,,true,Sales,Illinois,Active,,76099.64,heidi.jones@example.com,116691835,false,,Excellent,false,true,,,75K–99K
+EMP1205,Heidi,Jones,30,false,Admin,New York,Active,,70705.45,heidi.jones@example.com,1509377099,true,1509377099,Good,false,true,,,50K–74K
+EMP1287,Heidi,Jones,35,false,DevOps,New York,Active,,73597.85,heidi.jones@example.com,3402424032,true,3402424032,Poor,true,true,,,50K–74K
+EMP1461,Heidi,Jones,30,false,HR,Nevada,Active,,74276.71,heidi.jones@example.com,4384588104,true,4384588104,Excellent,true,true,,,50K–74K
+EMP1725,Heidi,Jones,,true,Sales,Illinois,Active,,80235.5,heidi.jones@example.com,2071511695,true,2071511695,Good,false,true,,,75K–99K
+EMP1885,Heidi,Jones,25,false,Cloud Tech,Nevada,Active,,62312.13,heidi.jones@example.com,4339527535,true,4339527535,Good,false,true,,,50K–74K
+EMP1034,Heidi,Miller,30,false,Admin,California,Active,,90542.62,heidi.miller@example.com,1642361031,true,1642361031,Excellent,true,true,,,75K–99K
+EMP1095,Heidi,Miller,25,false,Cloud Tech,California,Active,,98425.1,heidi.miller@example.com,4610339936,true,4610339936,Average,true,true,,,75K–99K
+EMP1741,Heidi,Miller,,true,DevOps,Texas,Active,,114558.91,heidi.miller@example.com,5080046357,true,5080046357,Average,false,true,,,100K–124K
+EMP1351,Heidi,Smith,25,false,Admin,California,Active,,73255.21,heidi.smith@example.com,7981789045,true,7981789045,Average,false,true,,,50K–74K
+EMP1440,Heidi,Smith,30,false,Cloud Tech,California,Active,,115959.65,heidi.smith@example.com,941017589,false,,Excellent,true,true,,,100K–124K
+EMP1772,Heidi,Smith,40,false,Finance,Florida,Active,,92007.15,heidi.smith@example.com,4159597751,true,4159597751,Average,true,true,,,75K–99K
+EMP1800,Heidi,Smith,25,false,HR,New York,Active,,58012.23,heidi.smith@example.com,1067245306,true,1067245306,Average,true,true,,,50K–74K
+EMP1886,Heidi,Smith,,true,Cloud Tech,Texas,Active,,81137.46,heidi.smith@example.com,7497852490,true,7497852490,Excellent,false,true,,,75K–99K
+EMP1889,Heidi,Smith,25,false,Finance,New York,Active,,81849.36,heidi.smith@example.com,6791766511,true,6791766511,Excellent,false,true,,,75K–99K
+EMP1892,Heidi,Smith,40,false,Admin,California,Active,,70661.31,heidi.smith@example.com,5944633398,true,5944633398,Good,true,true,,,50K–74K
+EMP1012,Heidi,Williams,30,false,HR,New York,Active,,89295.77,heidi.williams@example.com,2429543164,true,2429543164,Excellent,false,true,,,75K–99K
+EMP1151,Heidi,Williams,35,false,DevOps,Florida,Active,,53174.28,heidi.williams@example.com,1536637779,true,1536637779,Average,true,true,,,50K–74K
+EMP1255,Heidi,Williams,25,false,HR,Florida,Active,,56776.82,heidi.williams@example.com,6093068537,true,6093068537,Poor,false,true,,,50K–74K
+EMP1857,Heidi,Williams,35,false,Cloud Tech,Texas,Active,,89994.12,heidi.williams@example.com,607174810,false,,Good,true,true,,,75K–99K
+EMP1016,Alice,Brown,25,false,DevOps,Illinois,Inactive,,94867.33,alice.brown@example.com,7713334475,true,7713334475,Poor,false,false,,,75K–99K
+EMP1053,Alice,Brown,30,false,Finance,California,Inactive,,54859.45,alice.brown@example.com,8146717956,true,8146717956,Average,false,false,,,50K–74K
+EMP1103,Alice,Brown,30,false,Admin,Illinois,Inactive,,119574.27,alice.brown@example.com,3985547434,true,3985547434,Average,true,false,,,100K–124K
+EMP1235,Alice,Brown,,true,Admin,Nevada,Inactive,,76040.94,alice.brown@example.com,7189813128,true,7189813128,Good,true,false,,,75K–99K
+EMP1312,Alice,Brown,35,false,DevOps,Nevada,Inactive,,86712.41,alice.brown@example.com,6501917919,true,6501917919,Average,true,false,,,75K–99K
+EMP1427,Alice,Brown,35,false,Cloud Tech,Nevada,Inactive,,101665.79,alice.brown@example.com,3110291812,true,3110291812,Poor,true,false,,,100K–124K
+EMP1722,Alice,Brown,35,false,HR,Florida,Inactive,,58437.84,alice.brown@example.com,3748453985,true,3748453985,Good,true,false,,,50K–74K
+EMP1818,Alice,Brown,30,false,DevOps,New York,Inactive,,70405.23,alice.brown@example.com,8065625903,true,8065625903,Poor,true,false,,,50K–74K
+EMP1833,Alice,Brown,40,false,Finance,Illinois,Inactive,,101367.02,alice.brown@example.com,5769277893,true,5769277893,Excellent,false,false,,,100K–124K
+EMP1897,Alice,Brown,40,false,Sales,Florida,Inactive,,105861.23,alice.brown@example.com,9967331166,true,9967331166,Good,true,false,,,100K–124K
+EMP1523,Alice,Davis,25,false,DevOps,Texas,Inactive,,76617.76,alice.davis@example.com,7314976460,true,7314976460,Excellent,true,false,,,75K–99K
+EMP1759,Alice,Davis,,true,Cloud Tech,Florida,Inactive,,111443.69,alice.davis@example.com,1309810795,true,1309810795,Poor,true,false,,,100K–124K
+EMP1786,Alice,Davis,30,false,Admin,California,Inactive,,83537.58,alice.davis@example.com,2931100590,true,2931100590,Poor,false,false,,,75K–99K
+EMP1930,Alice,Davis,35,false,HR,California,Inactive,,111201.12,alice.davis@example.com,3012047136,true,3012047136,Poor,false,false,,,100K–124K
+EMP1005,Alice,Garcia,40,false,Sales,Texas,Inactive,,88642.84,alice.garcia@example.com,5409003485,true,5409003485,Good,false,false,,,75K–99K
+EMP1258,Alice,Garcia,25,false,Finance,Illinois,Inactive,,65060.11,alice.garcia@example.com,5381447442,true,5381447442,Excellent,true,false,,,50K–74K
+EMP1299,Alice,Garcia,,true,Finance,Nevada,Inactive,,51523.93,alice.garcia@example.com,18418619,false,,Average,true,false,,,50K–74K
+EMP1308,Alice,Garcia,30,false,DevOps,Texas,Inactive,,66403.75,alice.garcia@example.com,7883619688,true,7883619688,Good,false,false,,,50K–74K
+EMP1707,Alice,Garcia,35,false,Sales,Nevada,Inactive,,75834.81,alice.garcia@example.com,8354116596,true,8354116596,Excellent,true,false,,,75K–99K
+EMP2018,Alice,Garcia,30,false,HR,Florida,Inactive,,71318.79,alice.garcia@example.com,8995729892,true,8995729892,Good,true,false,,,50K–74K
+EMP1092,Alice,Johnson,40,false,HR,New York,Inactive,,74837.75,alice.johnson@example.com,5641118241,true,5641118241,Poor,false,false,,,50K–74K
+EMP1761,Alice,Johnson,30,false,HR,Florida,Inactive,,71318.79,alice.johnson@example.com,7278532425,true,7278532425,Poor,false,false,,,50K–74K
+EMP1975,Alice,Johnson,30,false,Sales,Nevada,Inactive,,99424.14,alice.johnson@example.com,7788519052,true,7788519052,Excellent,false,false,,,75K–99K
+EMP1227,Alice,Miller,35,false,HR,Texas,Inactive,,112264.06,alice.miller@example.com,9277423329,true,9277423329,Good,false,false,,,100K–124K
+EMP1237,Alice,Miller,30,false,Finance,Illinois,Inactive,,58243.27,alice.miller@example.com,2184011844,true,2184011844,Average,false,false,,,50K–74K
+EMP1449,Alice,Miller,30,false,Sales,Florida,Inactive,,119407.93,alice.miller@example.com,8469081973,true,8469081973,Excellent,true,false,,,100K–124K
+EMP1570,Alice,Miller,,true,DevOps,California,Inactive,,90087.39,alice.miller@example.com,8166496901,true,8166496901,Poor,false,false,,,75K–99K
+EMP1575,Alice,Miller,35,false,Finance,Texas,Inactive,,87816.61,alice.miller@example.com,7863767315,true,7863767315,Poor,false,false,,,75K–99K
+EMP1902,Alice,Miller,25,false,Finance,Nevada,Inactive,,52289.99,alice.miller@example.com,7093170694,true,7093170694,Poor,true,false,,,50K–74K
+EMP1246,Alice,Smith,25,false,Sales,New York,Inactive,,61337.69,alice.smith@example.com,5423401635,true,5423401635,Average,true,false,,,50K–74K
+EMP1301,Alice,Smith,25,false,Finance,Texas,Inactive,,62598.69,alice.smith@example.com,1721314518,true,1721314518,Average,true,false,,,50K–74K
+EMP1554,Alice,Smith,,true,Finance,Illinois,Inactive,,104675.7,alice.smith@example.com,4390552957,true,4390552957,Poor,true,false,,,100K–124K
+EMP1445,Alice,Williams,40,false,DevOps,California,Inactive,,104700.46,alice.williams@example.com,7855982175,true,7855982175,Good,true,false,,,100K–124K
+EMP1472,Alice,Williams,30,false,Admin,Nevada,Inactive,,83149.95,alice.williams@example.com,4277070704,true,4277070704,Average,false,false,,,75K–99K
+EMP1024,Bob,Brown,30,false,Admin,Texas,Inactive,,91181.61,bob.brown@example.com,1502745643,true,1502745643,Good,true,false,,,75K–99K
+EMP1091,Bob,Brown,35,false,Finance,New York,Inactive,,92723.22,bob.brown@example.com,9070562607,true,9070562607,Excellent,true,false,,,75K–99K
+EMP1107,Bob,Brown,30,false,Cloud Tech,Florida,Inactive,,91566.78,bob.brown@example.com,175370303,false,,Good,true,false,,,75K–99K
+EMP1706,Bob,Brown,25,false,Admin,Nevada,Inactive,,108245.44,bob.brown@example.com,8565271558,true,8565271558,Poor,true,false,,,100K–124K
+EMP1739,Bob,Brown,25,false,HR,Nevada,Inactive,,118585.5,bob.brown@example.com,7158796473,true,7158796473,Average,true,false,,,100K–124K
+EMP1783,Bob,Brown,30,false,Sales,Florida,Inactive,,73365.46,bob.brown@example.com,4655866524,true,4655866524,Poor,false,false,,,50K–74K
+EMP1160,Bob,Davis,25,false,Admin,Texas,Inactive,,105190.21,bob.davis@example.com,4672994937,true,4672994937,Good,true,false,,,100K–124K
+EMP1167,Bob,Davis,,true,DevOps,New York,Inactive,,112166.37,bob.davis@example.com,701765635,false,,Excellent,false,false,,,100K–124K
+EMP1187,Bob,Davis,40,false,Cloud Tech,New York,Inactive,,78031.49,bob.davis@example.com,2983381673,true,2983381673,Good,true,false,,,75K–99K
+EMP1364,Bob,Davis,30,false,HR,California,Inactive,,104898.9,bob.davis@example.com,1366572239,true,1366572239,Excellent,true,false,,,100K–124K
+EMP1568,Bob,Davis,40,false,Cloud Tech,Florida,Inactive,,68496.77,bob.davis@example.com,2079799666,true,2079799666,Average,false,false,,,50K–74K
+EMP1908,Bob,Davis,35,false,HR,Florida,Inactive,,86867.78,bob.davis@example.com,8131909247,true,8131909247,Poor,false,false,,,75K–99K
+EMP1959,Bob,Davis,30,false,HR,Florida,Inactive,,85997.57,bob.davis@example.com,3593744038,true,3593744038,Good,false,false,,,75K–99K
+EMP1043,Bob,Garcia,,true,Admin,California,Inactive,,64744.08,bob.garcia@example.com,164597793,false,,Excellent,false,false,,,50K–74K
+EMP1239,Bob,Garcia,40,false,Admin,Nevada,Inactive,,106735.93,bob.garcia@example.com,7297585987,true,7297585987,Average,true,false,,,100K–124K
+EMP1335,Bob,Garcia,40,false,Finance,Nevada,Inactive,,118413.05,bob.garcia@example.com,7157787111,true,7157787111,Poor,false,false,,,100K–124K
+EMP1400,Bob,Garcia,25,false,HR,California,Inactive,,76790.47,bob.garcia@example.com,1347323548,true,1347323548,Excellent,true,false,,,75K–99K
+EMP1407,Bob,Garcia,,true,Cloud Tech,California,Inactive,,77078.68,bob.garcia@example.com,4589714801,true,4589714801,Average,true,false,,,75K–99K
+EMP1418,Bob,Garcia,40,false,Finance,Illinois,Inactive,,84972.7,bob.garcia@example.com,9659234267,true,9659234267,Poor,true,false,,,75K–99K
+EMP1433,Bob,Garcia,30,false,Cloud Tech,New York,Inactive,,71982.33,bob.garcia@example.com,9609409704,true,9609409704,Average,false,false,,,50K–74K
+EMP1466,Bob,Garcia,25,false,HR,New York,Inactive,,101238.96,bob.garcia@example.com,3626804084,true,3626804084,Average,true,false,,,100K–124K
+EMP1490,Bob,Garcia,30,false,Finance,New York,Inactive,,83912.22,bob.garcia@example.com,1206021287,true,1206021287,Average,false,false,,,75K–99K
+EMP1518,Bob,Garcia,25,false,HR,California,Inactive,,86420.19,bob.garcia@example.com,5563830007,true,5563830007,Good,false,false,,,75K–99K
+EMP1591,Bob,Garcia,30,false,DevOps,Illinois,Inactive,,74999.69,bob.garcia@example.com,155029167,false,,Good,true,false,,,50K–74K
+EMP1690,Bob,Johnson,35,false,Finance,Nevada,Inactive,,75229.87,bob.johnson@example.com,7752401483,true,7752401483,Excellent,true,false,,,75K–99K
+EMP1720,Bob,Johnson,35,false,Finance,New York,Inactive,,112931.69,bob.johnson@example.com,878057214,false,,Poor,false,false,,,100K–124K
+EMP1988,Bob,Johnson,,true,Cloud Tech,Illinois,Inactive,,54708.88,bob.johnson@example.com,6944391648,true,6944391648,Excellent,true,false,,,50K–74K
+EMP1007,Bob,Jones,30,false,Cloud Tech,Florida,Inactive,,94497.91,bob.jones@example.com,4134327559,true,4134327559,Average,true,false,,,75K–99K
+EMP1171,Bob,Jones,40,false,HR,Nevada,Inactive,,114109.06,bob.jones@example.com,4275230836,true,4275230836,Average,true,false,,,100K–124K
+EMP1298,Bob,Jones,,true,Finance,Texas,Inactive,,85927.35,bob.jones@example.com,4572308480,true,4572308480,Good,false,false,,,75K–99K
+EMP1484,Bob,Jones,25,false,Sales,Texas,Inactive,,87494.34,bob.jones@example.com,7543943534,true,7543943534,Average,true,false,,,75K–99K
+EMP1952,Bob,Jones,25,false,Cloud Tech,Florida,Inactive,,63744.57,bob.jones@example.com,5725659201,true,5725659201,Average,false,false,,,50K–74K
+EMP1995,Bob,Jones,30,false,Finance,California,Inactive,,61240.9,bob.jones@example.com,2007843613,true,2007843613,Poor,true,false,,,50K–74K
+EMP1106,Bob,Miller,30,false,DevOps,New York,Inactive,,55683.12,bob.miller@example.com,8071569561,true,8071569561,Poor,true,false,,,50K–74K
+EMP1462,Bob,Miller,35,false,Finance,Texas,Inactive,,67467.86,bob.miller@example.com,6974132833,true,6974132833,Good,true,false,,,50K–74K
+EMP1663,Bob,Miller,40,false,Sales,California,Inactive,,116961.61,bob.miller@example.com,3607763368,true,3607763368,Excellent,true,false,,,100K–124K
+EMP1928,Bob,Miller,,true,Finance,New York,Inactive,,92222.03,bob.miller@example.com,9646300401,true,9646300401,Poor,true,false,,,75K–99K
+EMP1379,Bob,Smith,,true,Cloud Tech,New York,Inactive,,69239.7,bob.smith@example.com,7295963903,true,7295963903,Excellent,false,false,,,50K–74K
+EMP1467,Bob,Smith,35,false,Sales,Illinois,Inactive,,52169.52,bob.smith@example.com,954930595,false,,Excellent,false,false,,,50K–74K
+EMP1730,Bob,Williams,40,false,Finance,California,Inactive,,72451.69,bob.williams@example.com,4099512396,true,4099512396,Poor,true,false,,,50K–74K
+EMP1207,Charlie,Brown,40,false,Cloud Tech,Florida,Inactive,,100371.0,charlie.brown@example.com,8477596554,true,8477596554,Poor,true,false,,,100K–124K
+EMP1281,Charlie,Brown,25,false,Sales,New York,Inactive,,115452.25,charlie.brown@example.com,8485571616,true,8485571616,Poor,false,false,,,100K–124K
+EMP1376,Charlie,Brown,,true,Admin,Florida,Inactive,,63096.9,charlie.brown@example.com,5381649382,true,5381649382,Average,false,false,,,50K–74K
+EMP1464,Charlie,Brown,40,false,Finance,Florida,Inactive,,76274.33,charlie.brown@example.com,704496409,false,,Average,false,false,,,75K–99K
+EMP1629,Charlie,Davis,25,false,Admin,Illinois,Inactive,,73690.65,charlie.davis@example.com,2337209483,true,2337209483,Good,true,false,,,50K–74K
+EMP1854,Charlie,Davis,25,false,HR,Texas,Inactive,,73285.83,charlie.davis@example.com,9456534698,true,9456534698,Good,true,false,,,50K–74K
+EMP1971,Charlie,Davis,40,false,Sales,Nevada,Inactive,,71192.68,charlie.davis@example.com,8632397912,true,8632397912,Average,false,false,,,50K–74K
+EMP1018,Charlie,Garcia,,true,Cloud Tech,Nevada,Inactive,,94726.46,charlie.garcia@example.com,2044397358,true,2044397358,Excellent,false,false,,,75K–99K
+EMP1380,Charlie,Garcia,40,false,Sales,Nevada,Inactive,,85756.42,charlie.garcia@example.com,907426087,false,,Average,true,false,,,75K–99K
+EMP1536,Charlie,Garcia,25,false,Admin,Texas,Inactive,,83787.24,charlie.garcia@example.com,5228705621,true,5228705621,Good,true,false,,,75K–99K
+EMP1718,Charlie,Garcia,25,false,Cloud Tech,Florida,Inactive,,59688.57,charlie.garcia@example.com,8519358373,true,8519358373,Average,false,false,,,50K–74K
+EMP1782,Charlie,Garcia,,true,Admin,Nevada,Inactive,,50110.66,charlie.garcia@example.com,904637659,false,,Average,true,false,,,50K–74K
+EMP1824,Charlie,Garcia,30,false,Sales,Florida,Inactive,,79206.48,charlie.garcia@example.com,3228556607,true,3228556607,Good,false,false,,,75K–99K
+EMP1976,Charlie,Garcia,35,false,DevOps,Florida,Inactive,,57656.74,charlie.garcia@example.com,4864010423,true,4864010423,Good,true,false,,,50K–74K
+EMP1998,Charlie,Garcia,35,false,Admin,Texas,Inactive,,106247.67,charlie.garcia@example.com,2737203762,true,2737203762,Excellent,true,false,,,100K–124K
+EMP1022,Charlie,Johnson,35,false,Sales,Illinois,Inactive,,115023.94,charlie.johnson@example.com,6528092427,true,6528092427,Average,true,false,,,100K–124K
+EMP1659,Charlie,Johnson,25,false,Admin,California,Inactive,,94090.35,charlie.johnson@example.com,8739592322,true,8739592322,Good,false,false,,,75K–99K
+EMP1913,Charlie,Johnson,40,false,HR,Florida,Inactive,,95127.91,charlie.johnson@example.com,5947372131,true,5947372131,Average,false,false,,,75K–99K
+EMP1030,Charlie,Jones,40,false,Admin,California,Inactive,,111214.02,charlie.jones@example.com,2613715040,true,2613715040,Good,true,false,,,100K–124K
+EMP1131,Charlie,Jones,25,false,Finance,California,Inactive,,98489.32,charlie.jones@example.com,5636205014,true,5636205014,Excellent,false,false,,,75K–99K
+EMP1253,Charlie,Jones,40,false,Finance,Florida,Inactive,,73813.48,charlie.jones@example.com,1131290147,true,1131290147,Average,false,false,,,50K–74K
+EMP1454,Charlie,Jones,35,false,DevOps,New York,Inactive,,51533.9,charlie.jones@example.com,3896086,false,,Poor,true,false,,,50K–74K
+EMP1489,Charlie,Jones,35,false,DevOps,Florida,Inactive,,101015.96,charlie.jones@example.com,3270216486,true,3270216486,Poor,true,false,,,100K–124K
+EMP1538,Charlie,Jones,40,false,Finance,Texas,Inactive,,53218.06,charlie.jones@example.com,1097921582,true,1097921582,Average,false,false,,,50K–74K
+EMP1665,Charlie,Jones,35,false,Admin,California,Inactive,,70394.94,charlie.jones@example.com,7955633184,true,7955633184,Excellent,false,false,,,50K–74K
+EMP1764,Charlie,Jones,40,false,Finance,California,Inactive,,62521.5,charlie.jones@example.com,7767555627,true,7767555627,Average,true,false,,,50K–74K
+EMP1839,Charlie,Jones,35,false,DevOps,New York,Inactive,,105956.04,charlie.jones@example.com,7123166006,true,7123166006,Excellent,false,false,,,100K–124K
+EMP1946,Charlie,Jones,25,false,Admin,Illinois,Inactive,,104516.55,charlie.jones@example.com,652775843,false,,Excellent,false,false,,,100K–124K
+EMP1236,Charlie,Miller,,true,HR,Florida,Inactive,,69508.28,charlie.miller@example.com,2087510292,true,2087510292,Good,false,false,,,50K–74K
+EMP1580,Charlie,Miller,25,false,Finance,Nevada,Inactive,,56126.46,charlie.miller@example.com,6244670461,true,6244670461,Poor,true,false,,,50K–74K
+EMP1671,Charlie,Miller,25,false,Cloud Tech,Nevada,Inactive,,114069.07,charlie.miller@example.com,5120734653,true,5120734653,Good,true,false,,,100K–124K
+EMP1243,Charlie,Smith,,true,Cloud Tech,Texas,Inactive,,119971.65,charlie.smith@example.com,2831435988,true,2831435988,Average,false,false,,,100K–124K
+EMP1684,Charlie,Smith,25,false,Finance,New York,Inactive,,71810.37,charlie.smith@example.com,5608213710,true,5608213710,Average,true,false,,,50K–74K
+EMP1776,Charlie,Smith,40,false,DevOps,Illinois,Inactive,,56518.84,charlie.smith@example.com,9579927078,true,9579927078,Average,false,false,,,50K–74K
+EMP1935,Charlie,Smith,40,false,HR,Illinois,Inactive,,107595.95,charlie.smith@example.com,3372188565,true,3372188565,Excellent,true,false,,,100K–124K
+EMP1060,Charlie,Williams,30,false,Finance,Nevada,Inactive,,102369.42,charlie.williams@example.com,5508428909,true,5508428909,Average,true,false,,,100K–124K
+EMP1699,Charlie,Williams,25,false,Sales,New York,Inactive,,107359.3,charlie.williams@example.com,4510173972,true,4510173972,Excellent,false,false,,,100K–124K
+EMP1726,Charlie,Williams,30,false,HR,Texas,Inactive,,102172.05,charlie.williams@example.com,6672521451,true,6672521451,Poor,false,false,,,100K–124K
+EMP1076,David,Brown,40,false,Admin,California,Inactive,,52031.74,david.brown@example.com,1589357125,true,1589357125,Good,true,false,,,50K–74K
+EMP1128,David,Brown,,true,Finance,New York,Inactive,,72272.34,david.brown@example.com,3315377958,true,3315377958,Average,false,false,,,50K–74K
+EMP1280,David,Brown,30,false,Cloud Tech,Texas,Inactive,,100215.06,david.brown@example.com,5473820235,true,5473820235,Average,true,false,,,100K–124K
+EMP1338,David,Brown,,true,Admin,Nevada,Inactive,,70949.38,david.brown@example.com,2359096055,true,2359096055,Poor,true,false,,,50K–74K
+EMP1729,David,Brown,30,false,Cloud Tech,California,Inactive,,97931.66,david.brown@example.com,512080055,false,,Average,true,false,,,75K–99K
+EMP1864,David,Brown,30,false,Sales,Texas,Inactive,,63370.22,david.brown@example.com,3597371121,true,3597371121,Excellent,false,false,,,50K–74K
+EMP1894,David,Brown,,true,Finance,Florida,Inactive,,101101.24,david.brown@example.com,3263890218,true,3263890218,Poor,true,false,,,100K–124K
+EMP1994,David,Brown,30,false,DevOps,Nevada,Inactive,,80477.21,david.brown@example.com,3774604066,true,3774604066,Good,false,false,,,75K–99K
+EMP1213,David,Davis,40,false,HR,Texas,Inactive,,77751.78,david.davis@example.com,9802714871,true,9802714871,Excellent,false,false,,,75K–99K
+EMP1369,David,Davis,40,false,Sales,Florida,Inactive,,99331.49,david.davis@example.com,8477686341,true,8477686341,Excellent,false,false,,,75K–99K
+EMP1696,David,Davis,25,false,DevOps,Florida,Inactive,,59431.25,david.davis@example.com,4064176926,true,4064176926,Poor,true,false,,,50K–74K
+EMP1083,David,Garcia,40,false,DevOps,California,Inactive,,92412.49,david.garcia@example.com,2296044326,true,2296044326,Excellent,true,false,,,75K–99K
+EMP1353,David,Garcia,40,false,HR,New York,Inactive,,70401.37,david.garcia@example.com,7660538443,true,7660538443,Good,true,false,,,50K–74K
+EMP1609,David,Garcia,25,false,Sales,Nevada,Inactive,,60516.83,david.garcia@example.com,1996059328,true,1996059328,Good,false,false,,,50K–74K
+EMP1073,David,Johnson,25,false,Finance,Florida,Inactive,,82614.7,david.johnson@example.com,8105485100,true,8105485100,Average,true,false,,,75K–99K
+EMP1155,David,Johnson,35,false,Cloud Tech,Nevada,Inactive,,113118.73,david.johnson@example.com,6186371596,true,6186371596,Average,false,false,,,100K–124K
+EMP1157,David,Johnson,,true,Cloud Tech,Texas,Inactive,,119217.46,david.johnson@example.com,2316433480,true,2316433480,Poor,false,false,,,100K–124K
+EMP1304,David,Johnson,25,false,Cloud Tech,California,Inactive,,100336.58,david.johnson@example.com,4754102251,true,4754102251,Excellent,true,false,,,100K–124K
+EMP1579,David,Johnson,,true,DevOps,Nevada,Inactive,,107172.8,david.johnson@example.com,7303461561,true,7303461561,Excellent,true,false,,,100K–124K
+EMP1611,David,Johnson,,true,Admin,Nevada,Inactive,,67056.92,david.johnson@example.com,7532735240,true,7532735240,Average,true,false,,,50K–74K
+EMP1689,David,Johnson,40,false,Finance,Nevada,Inactive,,61102.8,david.johnson@example.com,9634064685,true,9634064685,Good,true,false,,,50K–74K
+EMP1874,David,Johnson,25,false,Sales,New York,Inactive,,58452.18,david.johnson@example.com,8192365345,true,8192365345,Excellent,true,false,,,50K–74K
+EMP1958,David,Johnson,,true,DevOps,Florida,Inactive,,91256.64,david.johnson@example.com,5069176798,true,5069176798,Average,false,false,,,75K–99K
+EMP2016,David,Johnson,30,false,Cloud Tech,Texas,Inactive,,100215.06,david.johnson@example.com,2508261122,true,2508261122,Good,true,false,,,100K–124K
+EMP1209,David,Jones,35,false,DevOps,Illinois,Inactive,,103860.7,david.jones@example.com,762091842,false,,Average,true,false,,,100K–124K
+EMP1912,David,Jones,,true,DevOps,Texas,Inactive,,117870.22,david.jones@example.com,622072238,false,,Excellent,false,false,,,100K–124K
+EMP2011,David,Jones,40,false,Admin,California,Inactive,,52031.74,david.jones@example.com,6511893939,true,6511893939,Excellent,true,false,,,50K–74K
+EMP1324,David,Miller,40,false,Sales,New York,Inactive,,95822.56,david.miller@example.com,2156818208,true,2156818208,Average,false,false,,,75K–99K
+EMP1691,David,Miller,25,false,Admin,Nevada,Inactive,,51054.74,david.miller@example.com,3991062271,true,3991062271,Excellent,false,false,,,50K–74K
+EMP1808,David,Miller,30,false,Sales,California,Inactive,,62834.72,david.miller@example.com,9337970580,true,9337970580,Good,true,false,,,50K–74K
+EMP1967,David,Miller,40,false,DevOps,Florida,Inactive,,99944.57,david.miller@example.com,2175188780,true,2175188780,Poor,true,false,,,75K–99K
+EMP1288,David,Smith,30,false,Sales,Nevada,Inactive,,79939.23,david.smith@example.com,8105955183,true,8105955183,Excellent,true,false,,,75K–99K
+EMP1362,David,Smith,40,false,HR,Florida,Inactive,,97568.88,david.smith@example.com,7911244210,true,7911244210,Average,true,false,,,75K–99K
+EMP1428,David,Smith,,true,Admin,Florida,Inactive,,118079.15,david.smith@example.com,3170876013,true,3170876013,Good,true,false,,,100K–124K
+EMP1544,David,Smith,,true,DevOps,Florida,Inactive,,66450.0,david.smith@example.com,287675480,false,,Average,true,false,,,50K–74K
+EMP1647,David,Smith,30,false,Admin,Illinois,Inactive,,104525.69,david.smith@example.com,9601054856,true,9601054856,Excellent,false,false,,,100K–124K
+EMP1861,David,Smith,25,false,Finance,Nevada,Inactive,,89707.07,david.smith@example.com,8049187273,true,8049187273,Good,false,false,,,75K–99K
+EMP1052,David,Williams,30,false,Finance,California,Inactive,,105674.18,david.williams@example.com,9973080694,true,9973080694,Good,false,false,,,100K–124K
+EMP1314,David,Williams,35,false,DevOps,New York,Inactive,,89367.02,david.williams@example.com,2728476569,true,2728476569,Poor,false,false,,,75K–99K
+EMP1746,David,Williams,,true,Admin,Florida,Inactive,,73049.93,david.williams@example.com,4694346065,true,4694346065,Good,false,false,,,50K–74K
+EMP1765,David,Williams,40,false,Cloud Tech,California,Inactive,,95400.35,david.williams@example.com,3333939577,true,3333939577,Poor,true,false,,,75K–99K
+EMP1907,David,Williams,30,false,HR,California,Inactive,,97615.87,david.williams@example.com,2426423641,true,2426423641,Average,false,false,,,75K–99K
+EMP1252,Eva,Brown,40,false,Admin,Nevada,Inactive,,81748.09,eva.brown@example.com,4683414650,true,4683414650,Average,true,false,,,75K–99K
+EMP1499,Eva,Brown,35,false,Finance,Florida,Inactive,,67639.91,eva.brown@example.com,4913421387,true,4913421387,Excellent,true,false,,,50K–74K
+EMP1917,Eva,Brown,25,false,Admin,California,Inactive,,116934.97,eva.brown@example.com,1954196663,true,1954196663,Good,true,false,,,100K–124K
+EMP1940,Eva,Brown,40,false,DevOps,Texas,Inactive,,,eva.brown@example.com,9611110285,true,9611110285,Good,true,false,,,Unknown
+EMP1987,Eva,Brown,25,false,HR,Illinois,Inactive,,65812.02,eva.brown@example.com,3963845268,true,3963845268,Average,true,false,,,50K–74K
+EMP1997,Eva,Brown,40,false,Finance,Illinois,Inactive,,95284.54,eva.brown@example.com,7543734763,true,7543734763,Good,false,false,,,75K–99K
+EMP1003,Eva,Davis,25,false,Admin,Nevada,Inactive,,69450.99,eva.davis@example.com,3476490784,true,3476490784,Good,true,false,,,50K–74K
+EMP1061,Eva,Davis,40,false,Sales,Texas,Inactive,,64712.79,eva.davis@example.com,7711991807,true,7711991807,Excellent,true,false,,,50K–74K
+EMP1109,Eva,Davis,,true,DevOps,New York,Inactive,,88119.37,eva.davis@example.com,4793036148,true,4793036148,Good,true,false,,,75K–99K
+EMP1123,Eva,Davis,,true,DevOps,California,Inactive,,83774.97,eva.davis@example.com,1109193927,true,1109193927,Average,false,false,,,75K–99K
+EMP1963,Eva,Davis,40,false,Admin,Texas,Inactive,,,eva.davis@example.com,1368528305,true,1368528305,Average,false,false,,,Unknown
+EMP2001,Eva,Davis,30,false,DevOps,Illinois,Inactive,,82547.26,eva.davis@example.com,3899827801,true,3899827801,Average,false,false,,,75K–99K
+EMP1140,Eva,Garcia,40,false,HR,New York,Inactive,,83824.56,eva.garcia@example.com,7872558776,true,7872558776,Poor,false,false,,,75K–99K
+EMP1371,Eva,Garcia,40,false,Sales,Nevada,Inactive,,77204.75,eva.garcia@example.com,6769459195,true,6769459195,Good,true,false,,,75K–99K
+EMP1435,Eva,Garcia,,true,Cloud Tech,New York,Inactive,,56384.9,eva.garcia@example.com,5868122594,true,5868122594,Excellent,true,false,,,50K–74K
+EMP1443,Eva,Garcia,40,false,Finance,Illinois,Inactive,,56140.51,eva.garcia@example.com,1901302055,true,1901302055,Average,false,false,,,50K–74K
+EMP1715,Eva,Garcia,35,false,Finance,Florida,Inactive,,100841.93,eva.garcia@example.com,8936289695,true,8936289695,Poor,true,false,,,100K–124K
+EMP1126,Eva,Johnson,,true,Sales,Nevada,Inactive,,60401.68,eva.johnson@example.com,2274954507,true,2274954507,Average,false,false,,,50K–74K
+EMP1417,Eva,Johnson,25,false,Cloud Tech,California,Inactive,,86669.79,eva.johnson@example.com,3666144941,true,3666144941,Excellent,true,false,,,75K–99K
+EMP1990,Eva,Johnson,40,false,DevOps,Illinois,Inactive,,79002.0,eva.johnson@example.com,9132033015,true,9132033015,Average,true,false,,,75K–99K
+EMP1425,Eva,Jones,,true,Admin,Florida,Inactive,,118030.04,eva.jones@example.com,7501980381,true,7501980381,Excellent,true,false,,,100K–124K
+EMP1501,Eva,Jones,35,false,DevOps,Texas,Inactive,,73539.86,eva.jones@example.com,5349678273,true,5349678273,Excellent,true,false,,,50K–74K
+EMP1737,Eva,Jones,30,false,DevOps,Illinois,Inactive,,82547.26,eva.jones@example.com,9988683451,true,9988683451,Excellent,true,false,,,75K–99K
+EMP1792,Eva,Jones,35,false,DevOps,Texas,Inactive,,56075.84,eva.jones@example.com,3269496842,true,3269496842,Average,true,false,,,50K–74K
+EMP1837,Eva,Jones,35,false,Admin,Illinois,Inactive,,,eva.jones@example.com,4247310719,true,4247310719,Excellent,false,false,,,Unknown
+EMP1855,Eva,Jones,30,false,Finance,Texas,Inactive,,92721.13,eva.jones@example.com,7990707549,true,7990707549,Poor,true,false,,,75K–99K
+EMP1937,Eva,Jones,35,false,DevOps,Nevada,Inactive,,95766.91,eva.jones@example.com,5066626704,true,5066626704,Average,true,false,,,75K–99K
+EMP1230,Eva,Miller,35,false,Cloud Tech,Texas,Inactive,,70694.8,eva.miller@example.com,3013674925,true,3013674925,Average,true,false,,,50K–74K
+EMP1447,Eva,Miller,25,false,Finance,Illinois,Inactive,,90879.22,eva.miller@example.com,3098503445,true,3098503445,Good,false,false,,,75K–99K
+EMP1535,Eva,Miller,40,false,DevOps,Florida,Inactive,,112028.67,eva.miller@example.com,8395894772,true,8395894772,Excellent,false,false,,,100K–124K
+EMP1557,Eva,Miller,40,false,Admin,New York,Inactive,,99001.0,eva.miller@example.com,4485157918,true,4485157918,Good,true,false,,,75K–99K
+EMP1584,Eva,Miller,,true,Cloud Tech,California,Inactive,,77657.93,eva.miller@example.com,7585126860,true,7585126860,Poor,false,false,,,75K–99K
+EMP1936,Eva,Miller,40,false,Sales,Nevada,Inactive,,,eva.miller@example.com,6954132970,true,6954132970,Good,false,false,,,Unknown
+EMP1532,Eva,Smith,35,false,DevOps,California,Inactive,,58113.07,eva.smith@example.com,8123710671,true,8123710671,Average,true,false,,,50K–74K
+EMP1780,Eva,Smith,40,false,Sales,California,Inactive,,90259.99,eva.smith@example.com,752034475,false,,Average,false,false,,,75K–99K
+EMP1390,Eva,Williams,35,false,Finance,Florida,Inactive,,50173.12,eva.williams@example.com,7637153987,true,7637153987,Poor,false,false,,,50K–74K
+EMP1727,Eva,Williams,25,false,Finance,Illinois,Inactive,,98850.94,eva.williams@example.com,6471246334,true,6471246334,Excellent,true,false,,,75K–99K
+EMP1836,Eva,Williams,,true,Cloud Tech,California,Inactive,,58877.49,eva.williams@example.com,3651460400,true,3651460400,Excellent,false,false,,,50K–74K
+EMP1097,Frank,Brown,40,false,HR,California,Inactive,,58445.91,frank.brown@example.com,1706304890,true,1706304890,Excellent,false,false,,,50K–74K
+EMP1332,Frank,Brown,35,false,Finance,Texas,Inactive,,82129.84,frank.brown@example.com,6927589550,true,6927589550,Average,false,false,,,75K–99K
+EMP1341,Frank,Brown,,true,Sales,Illinois,Inactive,,72846.37,frank.brown@example.com,4201654234,true,4201654234,Good,true,false,,,50K–74K
+EMP1347,Frank,Brown,40,false,Cloud Tech,California,Inactive,,104541.84,frank.brown@example.com,5044817765,true,5044817765,Good,false,false,,,100K–124K
+EMP1434,Frank,Brown,30,false,Finance,California,Inactive,,109673.75,frank.brown@example.com,2774025882,true,2774025882,Excellent,false,false,,,100K–124K
+EMP1487,Frank,Brown,30,false,Cloud Tech,Nevada,Inactive,,112792.2,frank.brown@example.com,9283692943,true,9283692943,Good,true,false,,,100K–124K
+EMP1560,Frank,Brown,25,false,HR,Illinois,Inactive,,89944.67,frank.brown@example.com,4064242955,true,4064242955,Poor,false,false,,,75K–99K
+EMP1595,Frank,Brown,30,false,DevOps,Nevada,Inactive,,83596.78,frank.brown@example.com,9624406305,true,9624406305,Average,false,false,,,75K–99K
+EMP1713,Frank,Brown,35,false,Sales,California,Inactive,,103492.91,frank.brown@example.com,2407333372,true,2407333372,Poor,false,false,,,100K–124K
+EMP1813,Frank,Brown,30,false,DevOps,Illinois,Inactive,,118614.37,frank.brown@example.com,388436603,false,,Average,false,false,,,100K–124K
+EMP1008,Frank,Davis,35,false,Admin,Nevada,Inactive,,115565.82,frank.davis@example.com,4177656123,true,4177656123,Excellent,true,false,,,100K–124K
+EMP1145,Frank,Davis,30,false,Cloud Tech,California,Inactive,,79085.22,frank.davis@example.com,7546027340,true,7546027340,Good,true,false,,,75K–99K
+EMP1200,Frank,Davis,25,false,Sales,Nevada,Inactive,,67639.7,frank.davis@example.com,1195243639,true,1195243639,Excellent,true,false,,,50K–74K
+EMP1823,Frank,Davis,40,false,Finance,Florida,Inactive,,64785.13,frank.davis@example.com,3080037002,true,3080037002,Average,true,false,,,50K–74K
+EMP1166,Frank,Garcia,40,false,Sales,Illinois,Inactive,,85388.58,frank.garcia@example.com,1185672437,true,1185672437,Poor,true,false,,,75K–99K
+EMP1884,Frank,Garcia,35,false,Admin,Florida,Inactive,,93177.35,frank.garcia@example.com,5885379820,true,5885379820,Average,false,false,,,75K–99K
+EMP1942,Frank,Garcia,30,false,Cloud Tech,California,Inactive,,94537.3,frank.garcia@example.com,5591024509,true,5591024509,Good,true,false,,,75K–99K
+EMP1984,Frank,Garcia,40,false,Sales,Florida,Inactive,,56840.8,frank.garcia@example.com,1429831521,true,1429831521,Poor,true,false,,,50K–74K
+EMP1096,Frank,Johnson,40,false,Sales,Illinois,Inactive,,119764.2,frank.johnson@example.com,8861405785,true,8861405785,Average,false,false,,,100K–124K
+EMP1294,Frank,Johnson,40,false,DevOps,Illinois,Inactive,,87626.24,frank.johnson@example.com,6931216375,true,6931216375,Good,true,false,,,75K–99K
+EMP1509,Frank,Johnson,35,false,HR,Illinois,Inactive,,109584.97,frank.johnson@example.com,3477695873,true,3477695873,Poor,true,false,,,100K–124K
+EMP1678,Frank,Johnson,30,false,Finance,Illinois,Inactive,,67492.73,frank.johnson@example.com,3424579888,true,3424579888,Excellent,true,false,,,50K–74K
+EMP1698,Frank,Johnson,35,false,DevOps,Florida,Inactive,,108194.47,frank.johnson@example.com,6601444855,true,6601444855,Good,false,false,,,100K–124K
+EMP1711,Frank,Johnson,40,false,DevOps,Nevada,Inactive,,57287.17,frank.johnson@example.com,6425856260,true,6425856260,Average,true,false,,,50K–74K
+EMP1754,Frank,Johnson,30,false,Finance,Florida,Inactive,,61465.05,frank.johnson@example.com,2573066247,true,2573066247,Average,false,false,,,50K–74K
+EMP1862,Frank,Johnson,35,false,DevOps,California,Inactive,,94259.08,frank.johnson@example.com,2049561212,true,2049561212,Excellent,true,false,,,75K–99K
+EMP1035,Frank,Jones,25,false,Cloud Tech,Illinois,Inactive,,114357.1,frank.jones@example.com,6642147648,true,6642147648,Excellent,true,false,,,100K–124K
+EMP1185,Frank,Jones,,true,Finance,Illinois,Inactive,,94809.92,frank.jones@example.com,8033968526,true,8033968526,Good,true,false,,,75K–99K
+EMP1215,Frank,Jones,30,false,Admin,Texas,Inactive,,83071.85,frank.jones@example.com,6025643470,true,6025643470,Poor,false,false,,,75K–99K
+EMP1416,Frank,Jones,,true,Sales,Nevada,Inactive,,76030.86,frank.jones@example.com,2369143074,true,2369143074,Good,true,false,,,75K–99K
+EMP1576,Frank,Jones,,true,Sales,Florida,Inactive,,70750.38,frank.jones@example.com,2526546967,true,2526546967,Poor,false,false,,,50K–74K
+EMP1649,Frank,Jones,40,false,Sales,California,Inactive,,118907.63,frank.jones@example.com,4938173597,true,4938173597,Poor,false,false,,,100K–124K
+EMP2005,Frank,Jones,30,false,Finance,Illinois,Inactive,,67492.73,frank.jones@example.com,5573857367,true,5573857367,Good,true,false,,,50K–74K
+EMP1026,Frank,Miller,25,false,Sales,New York,Inactive,,83979.01,frank.miller@example.com,7032032073,true,7032032073,Average,false,false,,,75K–99K
+EMP1277,Frank,Miller,30,false,HR,Texas,Inactive,,55532.06,frank.miller@example.com,1082555988,true,1082555988,Excellent,true,false,,,50K–74K
+EMP1493,Frank,Miller,30,false,HR,California,Inactive,,77785.96,frank.miller@example.com,7647229811,true,7647229811,Excellent,false,false,,,75K–99K
+EMP1654,Frank,Miller,35,false,Admin,Florida,Inactive,,79336.51,frank.miller@example.com,8749511917,true,8749511917,Excellent,false,false,,,75K–99K
+EMP1685,Frank,Miller,40,false,DevOps,Texas,Inactive,,109048.24,frank.miller@example.com,8425476817,true,8425476817,Poor,false,false,,,100K–124K
+EMP1087,Frank,Smith,,true,Finance,Nevada,Inactive,,85417.26,frank.smith@example.com,6580741208,true,6580741208,Good,true,false,,,75K–99K
+EMP1127,Frank,Smith,35,false,Sales,Illinois,Inactive,,115299.66,frank.smith@example.com,9203880652,true,9203880652,Good,true,false,,,100K–124K
+EMP1141,Frank,Smith,,true,HR,Nevada,Inactive,,118456.11,frank.smith@example.com,4969033372,true,4969033372,Excellent,true,false,,,100K–124K
+EMP1254,Frank,Smith,35,false,Finance,New York,Inactive,,89315.59,frank.smith@example.com,7068277880,true,7068277880,Average,false,false,,,75K–99K
+EMP1388,Frank,Smith,30,false,DevOps,Florida,Inactive,,90419.79,frank.smith@example.com,7457314414,true,7457314414,Average,true,false,,,75K–99K
+EMP1474,Frank,Williams,40,false,HR,New York,Inactive,,68430.72,frank.williams@example.com,5172444722,true,5172444722,Good,true,false,,,50K–74K
+EMP1904,Frank,Williams,25,false,Sales,Nevada,Inactive,,53609.38,frank.williams@example.com,5345472238,true,5345472238,Good,false,false,,,50K–74K
+EMP1079,Grace,Brown,35,false,Admin,Florida,Inactive,,103286.08,grace.brown@example.com,6776228276,true,6776228276,Average,false,false,,,100K–124K
+EMP1088,Grace,Brown,40,false,Cloud Tech,Florida,Inactive,,112410.25,grace.brown@example.com,4818139889,true,4818139889,Good,true,false,,,100K–124K
+EMP1204,Grace,Brown,,true,HR,Texas,Inactive,,62618.4,grace.brown@example.com,7912141613,true,7912141613,Excellent,false,false,,,50K–74K
+EMP1231,Grace,Brown,30,false,DevOps,Florida,Inactive,,52964.86,grace.brown@example.com,1764750110,true,1764750110,Good,true,false,,,50K–74K
+EMP1473,Grace,Brown,40,false,Finance,Nevada,Inactive,,94930.65,grace.brown@example.com,7836091497,true,7836091497,Good,false,false,,,75K–99K
+EMP1582,Grace,Brown,40,false,HR,Texas,Inactive,,,grace.brown@example.com,2529867075,true,2529867075,Good,false,false,,,Unknown
+EMP1821,Grace,Brown,30,false,HR,Texas,Inactive,,,grace.brown@example.com,1651768085,true,1651768085,Good,false,false,,,Unknown
+EMP1974,Grace,Brown,25,false,Finance,Florida,Inactive,,76343.56,grace.brown@example.com,7121988191,true,7121988191,Excellent,false,false,,,75K–99K
+EMP1980,Grace,Brown,25,false,Finance,California,Inactive,,74588.85,grace.brown@example.com,1293913043,true,1293913043,Average,false,false,,,50K–74K
+EMP2006,Grace,Brown,,true,HR,Illinois,Inactive,,77821.79,grace.brown@example.com,119236036,false,,Average,false,false,,,75K–99K
+EMP2008,Grace,Brown,35,false,Admin,Nevada,Inactive,,90224.82,grace.brown@example.com,5104096148,true,5104096148,Good,true,false,,,75K–99K
+EMP1859,Grace,Davis,35,false,Admin,Nevada,Inactive,,90224.82,grace.davis@example.com,4873961028,true,4873961028,Excellent,false,false,,,75K–99K
+EMP1289,Grace,Garcia,25,false,Admin,New York,Inactive,,,grace.garcia@example.com,2694500533,true,2694500533,Poor,false,false,,,Unknown
+EMP1357,Grace,Garcia,40,false,Admin,Nevada,Inactive,,67687.72,grace.garcia@example.com,5826312818,true,5826312818,Excellent,true,false,,,50K–74K
+EMP1392,Grace,Garcia,30,false,Finance,New York,Inactive,,72600.56,grace.garcia@example.com,7983631461,true,7983631461,Excellent,false,false,,,50K–74K
+EMP1404,Grace,Garcia,35,false,Admin,New York,Inactive,,55897.41,grace.garcia@example.com,9073710093,true,9073710093,Poor,false,false,,,50K–74K
+EMP1441,Grace,Garcia,40,false,Finance,Texas,Inactive,,79866.48,grace.garcia@example.com,2517629832,true,2517629832,Excellent,true,false,,,75K–99K
+EMP1767,Grace,Garcia,,true,Sales,New York,Inactive,,76642.49,grace.garcia@example.com,4960335825,true,4960335825,Poor,true,false,,,75K–99K
+EMP1978,Grace,Garcia,,true,DevOps,California,Inactive,,54299.68,grace.garcia@example.com,4460045211,true,4460045211,Average,false,false,,,50K–74K
+EMP1033,Grace,Johnson,25,false,Finance,California,Inactive,,79610.52,grace.johnson@example.com,2304501895,true,2304501895,Average,false,false,,,75K–99K
+EMP1122,Grace,Johnson,25,false,Admin,Texas,Inactive,,95339.68,grace.johnson@example.com,9915078592,true,9915078592,Poor,true,false,,,75K–99K
+EMP1164,Grace,Johnson,40,false,DevOps,Texas,Inactive,,113679.06,grace.johnson@example.com,6762916031,true,6762916031,Poor,true,false,,,100K–124K
+EMP1519,Grace,Johnson,30,false,HR,Florida,Inactive,,63189.82,grace.johnson@example.com,1867024402,true,1867024402,Excellent,false,false,,,50K–74K
+EMP1846,Grace,Johnson,,true,DevOps,California,Inactive,,68696.15,grace.johnson@example.com,5577820581,true,5577820581,Good,false,false,,,50K–74K
+EMP1217,Grace,Jones,25,false,HR,New York,Inactive,,53342.46,grace.jones@example.com,6686334140,true,6686334140,Poor,false,false,,,50K–74K
+EMP1305,Grace,Jones,30,false,Admin,Florida,Inactive,,69295.48,grace.jones@example.com,6771196420,true,6771196420,Excellent,false,false,,,50K–74K
+EMP1432,Grace,Jones,35,false,HR,Florida,Inactive,,55228.12,grace.jones@example.com,6176620470,true,6176620470,Poor,true,false,,,50K–74K
+EMP1600,Grace,Jones,30,false,Sales,Nevada,Inactive,,82529.08,grace.jones@example.com,917851384,false,,Excellent,true,false,,,75K–99K
+EMP1626,Grace,Jones,,true,HR,Illinois,Inactive,,77821.79,grace.jones@example.com,9135779082,true,9135779082,Average,false,false,,,75K–99K
+EMP1983,Grace,Jones,,true,Sales,Florida,Inactive,,98717.09,grace.jones@example.com,1901707567,true,1901707567,Poor,false,false,,,75K–99K
+EMP1334,Grace,Miller,40,false,Finance,Illinois,Inactive,,94572.37,grace.miller@example.com,2146296135,true,2146296135,Good,false,false,,,75K–99K
+EMP1485,Grace,Miller,35,false,Finance,Nevada,Inactive,,92627.35,grace.miller@example.com,3751376514,true,3751376514,Average,false,false,,,75K–99K
+EMP1887,Grace,Miller,30,false,DevOps,Nevada,Inactive,,104528.27,grace.miller@example.com,4168601346,true,4168601346,Excellent,false,false,,,100K–124K
+EMP2012,Grace,Miller,35,false,DevOps,Florida,Inactive,,,grace.miller@example.com,6557820189,true,6557820189,Average,false,false,,,Unknown
+EMP1137,Grace,Smith,,true,DevOps,New York,Inactive,,60018.24,grace.smith@example.com,5596309937,true,5596309937,Excellent,false,false,,,50K–74K
+EMP1148,Grace,Smith,,true,HR,Texas,Inactive,,68512.1,grace.smith@example.com,4439284043,true,4439284043,Average,false,false,,,50K–74K
+EMP1251,Grace,Smith,,true,DevOps,Texas,Inactive,,93901.48,grace.smith@example.com,3967275783,true,3967275783,Good,false,false,,,75K–99K
+EMP1263,Grace,Smith,35,false,HR,Illinois,Inactive,,60098.72,grace.smith@example.com,7654562840,true,7654562840,Excellent,true,false,,,50K–74K
+EMP1290,Grace,Smith,30,false,Finance,California,Inactive,,90772.25,grace.smith@example.com,2408916497,true,2408916497,Average,false,false,,,75K–99K
+EMP1636,Grace,Smith,35,false,DevOps,Florida,Inactive,,,grace.smith@example.com,4884712704,true,4884712704,Good,true,false,,,Unknown
+EMP1702,Grace,Smith,30,false,Sales,Nevada,Inactive,,88602.75,grace.smith@example.com,3599660576,true,3599660576,Average,true,false,,,75K–99K
+EMP1922,Grace,Smith,40,false,Admin,Florida,Inactive,,50300.6,grace.smith@example.com,1945887070,true,1945887070,Good,false,false,,,50K–74K
+EMP1302,Grace,Williams,35,false,Finance,Florida,Inactive,,55617.5,grace.williams@example.com,5151092267,true,5151092267,Excellent,true,false,,,50K–74K
+EMP1344,Grace,Williams,30,false,DevOps,Florida,Inactive,,,grace.williams@example.com,2727516479,true,2727516479,Poor,true,false,,,Unknown
+EMP1346,Grace,Williams,25,false,Cloud Tech,Texas,Inactive,,56514.5,grace.williams@example.com,2963533904,true,2963533904,Average,false,false,,,50K–74K
+EMP1805,Heidi,Brown,,true,HR,California,Inactive,,63870.3,heidi.brown@example.com,8455259709,true,8455259709,Excellent,false,false,,,50K–74K
+EMP1504,Heidi,Davis,35,false,HR,Florida,Inactive,,101571.25,heidi.davis@example.com,8150618537,true,8150618537,Excellent,false,false,,,100K–124K
+EMP1537,Heidi,Davis,30,false,Sales,Florida,Inactive,,52017.14,heidi.davis@example.com,7104331874,true,7104331874,Average,true,false,,,50K–74K
+EMP1354,Heidi,Garcia,,true,Admin,California,Inactive,,107154.62,heidi.garcia@example.com,4630600024,true,4630600024,Average,true,false,,,100K–124K
+EMP1545,Heidi,Garcia,25,false,Finance,Florida,Inactive,,118646.95,heidi.garcia@example.com,3866675484,true,3866675484,Average,false,false,,,100K–124K
+EMP1642,Heidi,Garcia,25,false,HR,Texas,Inactive,,105205.92,heidi.garcia@example.com,5557469659,true,5557469659,Poor,false,false,,,100K–124K
+EMP1677,Heidi,Garcia,35,false,Cloud Tech,Florida,Inactive,,,heidi.garcia@example.com,2231164912,true,2231164912,Average,true,false,,,Unknown
+EMP1075,Heidi,Johnson,25,false,HR,California,Inactive,,112414.91,heidi.johnson@example.com,9354492682,true,9354492682,Good,false,false,,,100K–124K
+EMP1101,Heidi,Johnson,25,false,Cloud Tech,Illinois,Inactive,,83509.99,heidi.johnson@example.com,4653984027,true,4653984027,Average,false,false,,,75K–99K
+EMP1105,Heidi,Johnson,35,false,Sales,Florida,Inactive,,93471.91,heidi.johnson@example.com,26876810,false,,Poor,false,false,,,75K–99K
+EMP1378,Heidi,Johnson,40,false,DevOps,Florida,Inactive,,108792.43,heidi.johnson@example.com,3307704610,true,3307704610,Poor,true,false,,,100K–124K
+EMP1700,Heidi,Johnson,25,false,DevOps,Illinois,Inactive,,,heidi.johnson@example.com,9641789968,true,9641789968,Good,false,false,,,Unknown
+EMP1905,Heidi,Johnson,,true,Cloud Tech,California,Inactive,,95372.09,heidi.johnson@example.com,8983065030,true,8983065030,Excellent,false,false,,,75K–99K
+EMP1939,Heidi,Johnson,25,false,Sales,Nevada,Inactive,,83634.01,heidi.johnson@example.com,6343925294,true,6343925294,Average,true,false,,,75K–99K
+EMP1992,Heidi,Johnson,30,false,DevOps,Nevada,Inactive,,115601.4,heidi.johnson@example.com,1537221555,true,1537221555,Good,true,false,,,100K–124K
+EMP1321,Heidi,Jones,40,false,Cloud Tech,Nevada,Inactive,,108781.18,heidi.jones@example.com,3904383033,true,3904383033,Poor,false,false,,,100K–124K
+EMP1728,Heidi,Jones,,true,Admin,Florida,Inactive,,89993.15,heidi.jones@example.com,1571840907,true,1571840907,Average,true,false,,,75K–99K
+EMP1815,Heidi,Jones,25,false,Sales,Illinois,Inactive,,88856.14,heidi.jones@example.com,2768297513,true,2768297513,Good,true,false,,,75K–99K
+EMP1830,Heidi,Jones,35,false,Cloud Tech,Illinois,Inactive,,55604.42,heidi.jones@example.com,3210613393,true,3210613393,Average,false,false,,,50K–74K
+EMP1880,Heidi,Jones,,true,Cloud Tech,Nevada,Inactive,,79315.01,heidi.jones@example.com,9992751757,true,9992751757,Poor,true,false,,,75K–99K
+EMP1069,Heidi,Miller,,true,DevOps,Illinois,Inactive,,113479.83,heidi.miller@example.com,4892673898,true,4892673898,Good,false,false,,,100K–124K
+EMP1282,Heidi,Miller,30,false,HR,California,Inactive,,54141.38,heidi.miller@example.com,6880294239,true,6880294239,Average,false,false,,,50K–74K
+EMP1452,Heidi,Miller,,true,HR,New York,Inactive,,56318.02,heidi.miller@example.com,1699187239,true,1699187239,Excellent,false,false,,,50K–74K
+EMP1672,Heidi,Miller,,true,HR,Illinois,Inactive,,117867.96,heidi.miller@example.com,9500507025,true,9500507025,Poor,false,false,,,100K–124K
+EMP1286,Heidi,Smith,30,false,Sales,Florida,Inactive,,106616.97,heidi.smith@example.com,4344812307,true,4344812307,Poor,false,false,,,100K–124K
+EMP1803,Heidi,Smith,25,false,Admin,Texas,Inactive,,53531.92,heidi.smith@example.com,9423873669,true,9423873669,Poor,true,false,,,50K–74K
+EMP1819,Heidi,Smith,30,false,Admin,Nevada,Inactive,,89919.35,heidi.smith@example.com,5990802710,true,5990802710,Excellent,true,false,,,75K–99K
+EMP1191,Heidi,Williams,40,false,Sales,Illinois,Inactive,,114690.8,heidi.williams@example.com,1498282466,true,1498282466,Poor,true,false,,,100K–124K
+EMP1394,Heidi,Williams,25,false,Cloud Tech,New York,Inactive,,50047.32,heidi.williams@example.com,2407875417,true,2407875417,Good,false,false,,,50K–74K
+EMP1856,Heidi,Williams,25,false,Admin,Illinois,Inactive,,92977.64,heidi.williams@example.com,4768169956,true,4768169956,Excellent,false,false,,,75K–99K
+EMP1045,Alice,Brown,25,false,HR,New York,Pending,,61310.74,alice.brown@example.com,61027768,false,,Average,true,false,,,50K–74K
+EMP1163,Alice,Brown,,true,HR,Florida,Pending,,54257.78,alice.brown@example.com,7546926328,true,7546926328,Poor,true,false,,,50K–74K
+EMP1598,Alice,Brown,,true,DevOps,Texas,Pending,,78359.41,alice.brown@example.com,5867805554,true,5867805554,Good,false,false,,,75K–99K
+EMP1194,Alice,Davis,35,false,HR,Texas,Pending,,118415.8,alice.davis@example.com,6656749159,true,6656749159,Good,true,false,,,100K–124K
+EMP1327,Alice,Davis,,true,Cloud Tech,Texas,Pending,,103503.72,alice.davis@example.com,2545960632,true,2545960632,Average,true,false,,,100K–124K
+EMP1868,Alice,Davis,40,false,Cloud Tech,New York,Pending,,86618.37,alice.davis@example.com,1021923784,true,1021923784,Average,false,false,,,75K–99K
+EMP1206,Alice,Garcia,35,false,Sales,New York,Pending,,60797.69,alice.garcia@example.com,4090138068,true,4090138068,Average,true,false,,,50K–74K
+EMP1437,Alice,Garcia,40,false,Finance,Illinois,Pending,,67489.68,alice.garcia@example.com,2988425994,true,2988425994,Poor,false,false,,,50K–74K
+EMP1471,Alice,Garcia,40,false,Cloud Tech,California,Pending,,92015.09,alice.garcia@example.com,4544901494,true,4544901494,Average,true,false,,,75K–99K
+EMP1617,Alice,Garcia,30,false,Sales,Illinois,Pending,,107855.99,alice.garcia@example.com,2565237340,true,2565237340,Excellent,false,false,,,100K–124K
+EMP1651,Alice,Garcia,,true,HR,Florida,Pending,,62236.03,alice.garcia@example.com,3257375533,true,3257375533,Excellent,true,false,,,50K–74K
+EMP1787,Alice,Garcia,30,false,Finance,New York,Pending,,112444.08,alice.garcia@example.com,2975191022,true,2975191022,Excellent,true,false,,,100K–124K
+EMP1871,Alice,Garcia,35,false,Cloud Tech,Florida,Pending,,108474.65,alice.garcia@example.com,184980424,false,,Good,true,false,,,100K–124K
+EMP1284,Alice,Johnson,40,false,Finance,New York,Pending,,114822.78,alice.johnson@example.com,8686694319,true,8686694319,Good,true,false,,,100K–124K
+EMP1460,Alice,Johnson,30,false,Sales,California,Pending,,94775.27,alice.johnson@example.com,4837537457,true,4837537457,Average,false,false,,,75K–99K
+EMP1548,Alice,Johnson,30,false,Finance,California,Pending,,93383.06,alice.johnson@example.com,5639836519,true,5639836519,Average,false,false,,,75K–99K
+EMP1565,Alice,Johnson,40,false,Finance,Florida,Pending,,117608.32,alice.johnson@example.com,182727954,false,,Good,true,false,,,100K–124K
+EMP1876,Alice,Johnson,30,false,Cloud Tech,Nevada,Pending,,,alice.johnson@example.com,9327986238,true,9327986238,Good,true,false,,,Unknown
+EMP1002,Alice,Jones,,true,Admin,Nevada,Pending,,88145.9,alice.jones@example.com,5596363211,true,5596363211,Good,true,false,,,75K–99K
+EMP1119,Alice,Jones,30,false,Sales,California,Pending,,84894.52,alice.jones@example.com,651207048,false,,Excellent,true,false,,,75K–99K
+EMP1133,Alice,Jones,,true,Cloud Tech,New York,Pending,,114465.04,alice.jones@example.com,334234257,false,,Good,false,false,,,100K–124K
+EMP1336,Alice,Jones,30,false,Admin,Nevada,Pending,,68976.65,alice.jones@example.com,1663651558,true,1663651558,Poor,true,false,,,50K–74K
+EMP1494,Alice,Jones,30,false,HR,Florida,Pending,,62430.86,alice.jones@example.com,995765727,false,,Poor,false,false,,,50K–74K
+EMP1943,Alice,Jones,35,false,HR,Illinois,Pending,,85970.65,alice.jones@example.com,9109032670,true,9109032670,Good,true,false,,,75K–99K
+EMP1250,Alice,Miller,25,false,Cloud Tech,Texas,Pending,,90373.99,alice.miller@example.com,822269404,false,,Good,false,false,,,75K–99K
+EMP1366,Alice,Miller,25,false,Cloud Tech,California,Pending,,97399.75,alice.miller@example.com,8028413907,true,8028413907,Excellent,false,false,,,75K–99K
+EMP1599,Alice,Miller,,true,HR,Illinois,Pending,,95773.57,alice.miller@example.com,7277382645,true,7277382645,Excellent,false,false,,,75K–99K
+EMP1686,Alice,Miller,35,false,Finance,Texas,Pending,,62712.26,alice.miller@example.com,2683230357,true,2683230357,Average,false,false,,,50K–74K
+EMP1057,Alice,Smith,40,false,Cloud Tech,Illinois,Pending,,100360.1,alice.smith@example.com,2971674337,true,2971674337,Excellent,false,false,,,100K–124K
+EMP1317,Alice,Smith,25,false,Admin,Illinois,Pending,,89119.53,alice.smith@example.com,2418623689,true,2418623689,Good,true,false,,,75K–99K
+EMP1533,Alice,Smith,25,false,Admin,Nevada,Pending,,73006.26,alice.smith@example.com,8728660415,true,8728660415,Poor,true,false,,,50K–74K
+EMP1590,Alice,Smith,,true,Finance,Nevada,Pending,,70345.69,alice.smith@example.com,7645793896,true,7645793896,Excellent,true,false,,,50K–74K
+EMP1723,Alice,Smith,40,false,Cloud Tech,California,Pending,,72352.16,alice.smith@example.com,2895090590,true,2895090590,Average,true,false,,,50K–74K
+EMP1731,Alice,Smith,35,false,Admin,California,Pending,,119311.14,alice.smith@example.com,2835129591,true,2835129591,Poor,true,false,,,100K–124K
+EMP1769,Alice,Smith,40,false,HR,California,Pending,,117267.63,alice.smith@example.com,9269326572,true,9269326572,Good,false,false,,,100K–124K
+EMP1794,Alice,Smith,30,false,Cloud Tech,Florida,Pending,,105931.77,alice.smith@example.com,175096169,false,,Poor,true,false,,,100K–124K
+EMP1929,Alice,Smith,35,false,Finance,New York,Pending,,79934.83,alice.smith@example.com,3693626893,true,3693626893,Average,true,false,,,75K–99K
+EMP1150,Alice,Williams,,true,Sales,California,Pending,,95335.67,alice.williams@example.com,3373898774,true,3373898774,Poor,false,false,,,75K–99K
+EMP1176,Alice,Williams,30,false,Admin,Illinois,Pending,,54870.98,alice.williams@example.com,6133155205,true,6133155205,Good,false,false,,,50K–74K
+EMP1221,Alice,Williams,40,false,Finance,Texas,Pending,,118672.76,alice.williams@example.com,8752437728,true,8752437728,Poor,false,false,,,100K–124K
+EMP1259,Alice,Williams,35,false,Finance,Illinois,Pending,,82941.08,alice.williams@example.com,963480796,false,,Poor,false,false,,,75K–99K
+EMP1542,Alice,Williams,25,false,DevOps,New York,Pending,,82850.23,alice.williams@example.com,9994973202,true,9994973202,Poor,false,false,,,75K–99K
+EMP1661,Alice,Williams,40,false,Cloud Tech,California,Pending,,63927.07,alice.williams@example.com,1553334263,true,1553334263,Good,true,false,,,50K–74K
+EMP1068,Bob,Brown,40,false,Admin,Florida,Pending,,119152.47,bob.brown@example.com,846684549,false,,Poor,true,false,,,100K–124K
+EMP1306,Bob,Brown,25,false,DevOps,Florida,Pending,,115536.66,bob.brown@example.com,5226557675,true,5226557675,Excellent,true,false,,,100K–124K
+EMP1350,Bob,Brown,35,false,HR,New York,Pending,,84706.17,bob.brown@example.com,4911110960,true,4911110960,Average,false,false,,,75K–99K
+EMP1360,Bob,Brown,25,false,Admin,Nevada,Pending,,61643.69,bob.brown@example.com,2752334382,true,2752334382,Good,true,false,,,50K–74K
+EMP1553,Bob,Brown,40,false,Finance,Nevada,Pending,,59424.52,bob.brown@example.com,2161070517,true,2161070517,Good,false,false,,,50K–74K
+EMP1588,Bob,Brown,35,false,Admin,Nevada,Pending,,74069.62,bob.brown@example.com,5607540914,true,5607540914,Good,false,false,,,50K–74K
+EMP1683,Bob,Brown,35,false,HR,New York,Pending,,100897.49,bob.brown@example.com,4578715840,true,4578715840,Average,true,false,,,100K–124K
+EMP1838,Bob,Brown,,true,Admin,Illinois,Pending,,96140.89,bob.brown@example.com,1137984408,true,1137984408,Average,true,false,,,75K–99K
+EMP1914,Bob,Brown,25,false,Admin,Illinois,Pending,,78818.42,bob.brown@example.com,9016204786,true,9016204786,Average,false,false,,,75K–99K
+EMP1084,Bob,Davis,30,false,HR,Texas,Pending,,115022.1,bob.davis@example.com,185106793,false,,Good,false,false,,,100K–124K
+EMP1134,Bob,Davis,40,false,Cloud Tech,Nevada,Pending,,57035.51,bob.davis@example.com,3230241025,true,3230241025,Poor,true,false,,,50K–74K
+EMP1355,Bob,Davis,,true,Admin,Illinois,Pending,,97719.88,bob.davis@example.com,8955296385,true,8955296385,Excellent,false,false,,,75K–99K
+EMP1525,Bob,Davis,,true,HR,Illinois,Pending,,59601.45,bob.davis@example.com,765817389,false,,Poor,false,false,,,50K–74K
+EMP1574,Bob,Davis,35,false,Finance,New York,Pending,,114302.51,bob.davis@example.com,1328507250,true,1328507250,Poor,false,false,,,100K–124K
+EMP1637,Bob,Davis,25,false,Sales,California,Pending,,89137.97,bob.davis@example.com,8772216416,true,8772216416,Average,false,false,,,75K–99K
+EMP1740,Bob,Davis,35,false,Finance,Illinois,Pending,,63049.22,bob.davis@example.com,803149981,false,,Poor,true,false,,,50K–74K
+EMP1797,Bob,Davis,25,false,HR,Texas,Pending,,91600.13,bob.davis@example.com,9205677566,true,9205677566,Average,true,false,,,75K–99K
+EMP1125,Bob,Garcia,35,false,Finance,California,Pending,,107438.46,bob.garcia@example.com,249685497,false,,Good,true,false,,,100K–124K
+EMP1162,Bob,Garcia,40,false,Finance,California,Pending,,57633.78,bob.garcia@example.com,8597779013,true,8597779013,Poor,true,false,,,50K–74K
+EMP1398,Bob,Garcia,30,false,Sales,New York,Pending,,,bob.garcia@example.com,1031310093,true,1031310093,Excellent,true,false,,,Unknown
+EMP1648,Bob,Garcia,40,false,Sales,Texas,Pending,,109360.74,bob.garcia@example.com,4172156228,true,4172156228,Average,true,false,,,100K–124K
+EMP1709,Bob,Garcia,25,false,DevOps,New York,Pending,,63262.23,bob.garcia@example.com,2501394883,true,2501394883,Good,false,false,,,50K–74K
+EMP1065,Bob,Johnson,40,false,Finance,Nevada,Pending,,100284.21,bob.johnson@example.com,5328632665,true,5328632665,Excellent,false,false,,,100K–124K
+EMP1372,Bob,Johnson,35,false,HR,Florida,Pending,,106961.68,bob.johnson@example.com,6395517207,true,6395517207,Poor,false,false,,,100K–124K
+EMP1745,Bob,Johnson,40,false,Sales,Nevada,Pending,,93786.72,bob.johnson@example.com,6356022938,true,6356022938,Poor,false,false,,,75K–99K
+EMP1749,Bob,Johnson,30,false,HR,New York,Pending,,103580.45,bob.johnson@example.com,5246484493,true,5246484493,Excellent,false,false,,,100K–124K
+EMP1872,Bob,Johnson,25,false,Finance,Illinois,Pending,,54417.71,bob.johnson@example.com,3733777311,true,3733777311,Excellent,false,false,,,50K–74K
+EMP1059,Bob,Jones,35,false,Sales,California,Pending,,72832.8,bob.jones@example.com,5619318373,true,5619318373,Excellent,true,false,,,50K–74K
+EMP1470,Bob,Jones,25,false,Finance,Illinois,Pending,,84366.38,bob.jones@example.com,4138459608,true,4138459608,Excellent,false,false,,,75K–99K
+EMP1610,Bob,Jones,30,false,Finance,California,Pending,,83706.17,bob.jones@example.com,7150968831,true,7150968831,Average,false,false,,,75K–99K
+EMP1624,Bob,Jones,,true,Cloud Tech,Florida,Pending,,98143.67,bob.jones@example.com,5856728726,true,5856728726,Excellent,false,false,,,75K–99K
+EMP1738,Bob,Jones,40,false,DevOps,California,Pending,,113900.81,bob.jones@example.com,7346666169,true,7346666169,Average,true,false,,,100K–124K
+EMP1296,Bob,Miller,,true,Cloud Tech,Texas,Pending,,64150.97,bob.miller@example.com,23142899,false,,Good,true,false,,,50K–74K
+EMP1412,Bob,Miller,,true,Admin,New York,Pending,,77351.21,bob.miller@example.com,1072728497,true,1072728497,Good,false,false,,,75K–99K
+EMP1483,Bob,Miller,40,false,Admin,New York,Pending,,90787.4,bob.miller@example.com,8681809787,true,8681809787,Average,false,false,,,75K–99K
+EMP1640,Bob,Miller,,true,HR,Illinois,Pending,,98593.43,bob.miller@example.com,2362292586,true,2362292586,Average,true,false,,,75K–99K
+EMP1801,Bob,Miller,30,false,Sales,California,Pending,,68973.65,bob.miller@example.com,6248433796,true,6248433796,Average,true,false,,,50K–74K
+EMP1804,Bob,Miller,40,false,Finance,New York,Pending,,112389.31,bob.miller@example.com,4254969191,true,4254969191,Excellent,false,false,,,100K–124K
+EMP1067,Bob,Smith,40,false,Admin,New York,Pending,,82518.49,bob.smith@example.com,5562606028,true,5562606028,Poor,true,false,,,75K–99K
+EMP1260,Bob,Smith,40,false,Admin,California,Pending,,103469.97,bob.smith@example.com,509754509,false,,Good,true,false,,,100K–124K
+EMP1413,Bob,Smith,35,false,DevOps,Florida,Pending,,66704.62,bob.smith@example.com,2474140702,true,2474140702,Poor,true,false,,,50K–74K
+EMP1530,Bob,Smith,,true,Cloud Tech,Nevada,Pending,,113334.56,bob.smith@example.com,3878753576,true,3878753576,Excellent,false,false,,,100K–124K
+EMP1807,Bob,Smith,40,false,HR,Nevada,Pending,,103654.54,bob.smith@example.com,8595325938,true,8595325938,Poor,false,false,,,100K–124K
+EMP1865,Bob,Smith,35,false,Finance,Texas,Pending,,101472.69,bob.smith@example.com,2990775607,true,2990775607,Good,true,false,,,100K–124K
+EMP2002,Bob,Smith,35,false,Finance,Illinois,Pending,,63049.22,bob.smith@example.com,586950731,false,,Good,true,false,,,50K–74K
+EMP1040,Bob,Williams,25,false,Sales,New York,Pending,,59271.96,bob.williams@example.com,4386490809,true,4386490809,Excellent,true,false,,,50K–74K
+EMP1391,Bob,Williams,40,false,DevOps,Nevada,Pending,,109507.44,bob.williams@example.com,5472812355,true,5472812355,Good,false,false,,,100K–124K
+EMP1779,Bob,Williams,,true,DevOps,Nevada,Pending,,83856.41,bob.williams@example.com,9962543847,true,9962543847,Excellent,false,false,,,75K–99K
+EMP1832,Bob,Williams,,true,Sales,California,Pending,,113250.97,bob.williams@example.com,8040325375,true,8040325375,Good,true,false,,,100K–124K
+EMP1853,Bob,Williams,40,false,HR,Florida,Pending,,103891.64,bob.williams@example.com,2114716559,true,2114716559,Good,true,false,,,100K–124K
+EMP1925,Bob,Williams,35,false,Cloud Tech,Florida,Pending,,65425.54,bob.williams@example.com,5975954507,true,5975954507,Poor,true,false,,,50K–74K
+EMP1954,Bob,Williams,25,false,Sales,New York,Pending,,62934.73,bob.williams@example.com,9743260054,true,9743260054,Good,false,false,,,50K–74K
+EMP1955,Bob,Williams,30,false,DevOps,California,Pending,,74654.23,bob.williams@example.com,9550178331,true,9550178331,Excellent,true,false,,,50K–74K
+EMP1401,Charlie,Brown,30,false,Cloud Tech,Illinois,Pending,,92722.35,charlie.brown@example.com,4012897431,true,4012897431,Excellent,false,false,,,75K–99K
+EMP1551,Charlie,Brown,40,false,Cloud Tech,California,Pending,,63128.04,charlie.brown@example.com,440907976,false,,Poor,false,false,,,50K–74K
+EMP1667,Charlie,Brown,30,false,Cloud Tech,New York,Pending,,96341.58,charlie.brown@example.com,1554164315,true,1554164315,Excellent,false,false,,,75K–99K
+EMP1676,Charlie,Brown,35,false,HR,Florida,Pending,,98143.9,charlie.brown@example.com,5917793237,true,5917793237,Excellent,false,false,,,75K–99K
+EMP1736,Charlie,Brown,25,false,Finance,Illinois,Pending,,53043.74,charlie.brown@example.com,507918157,false,,Excellent,true,false,,,50K–74K
+EMP1825,Charlie,Brown,30,false,Cloud Tech,Texas,Pending,,60079.71,charlie.brown@example.com,4706810389,true,4706810389,Average,true,false,,,50K–74K
+EMP1050,Charlie,Davis,40,false,Cloud Tech,New York,Pending,,104767.05,charlie.davis@example.com,3496050165,true,3496050165,Excellent,false,false,,,100K–124K
+EMP1100,Charlie,Davis,35,false,Cloud Tech,Texas,Pending,,98819.22,charlie.davis@example.com,794200748,false,,Good,false,false,,,75K–99K
+EMP1521,Charlie,Davis,25,false,HR,Nevada,Pending,,52615.44,charlie.davis@example.com,1860089218,true,1860089218,Average,false,false,,,50K–74K
+EMP1597,Charlie,Davis,,true,Admin,California,Pending,,93863.32,charlie.davis@example.com,5319497968,true,5319497968,Excellent,false,false,,,75K–99K
+EMP1795,Charlie,Davis,30,false,HR,Florida,Pending,,86653.96,charlie.davis@example.com,1595919456,true,1595919456,Average,true,false,,,75K–99K
+EMP1890,Charlie,Davis,40,false,DevOps,New York,Pending,,118288.91,charlie.davis@example.com,2150014187,true,2150014187,Poor,false,false,,,100K–124K
+EMP1201,Charlie,Garcia,35,false,Cloud Tech,Illinois,Pending,,114172.25,charlie.garcia@example.com,2701168645,true,2701168645,Good,true,false,,,100K–124K
+EMP1393,Charlie,Garcia,,true,Finance,California,Pending,,53388.65,charlie.garcia@example.com,4912711306,true,4912711306,Poor,true,false,,,50K–74K
+EMP1555,Charlie,Garcia,30,false,Cloud Tech,Florida,Pending,,92431.25,charlie.garcia@example.com,660138240,false,,Average,false,false,,,75K–99K
+EMP1947,Charlie,Garcia,25,false,Admin,New York,Pending,,108210.15,charlie.garcia@example.com,6634533721,true,6634533721,Poor,true,false,,,100K–124K
+EMP1089,Charlie,Johnson,40,false,Admin,Nevada,Pending,,68905.77,charlie.johnson@example.com,9837801819,true,9837801819,Average,false,false,,,50K–74K
+EMP1279,Charlie,Johnson,25,false,Sales,Nevada,Pending,,66972.06,charlie.johnson@example.com,1093371188,true,1093371188,Good,true,false,,,50K–74K
+EMP1421,Charlie,Johnson,25,false,Sales,Nevada,Pending,,79355.85,charlie.johnson@example.com,6766708060,true,6766708060,Good,false,false,,,75K–99K
+EMP1589,Charlie,Jones,30,false,Admin,New York,Pending,,67691.92,charlie.jones@example.com,863218121,false,,Average,true,false,,,50K–74K
+EMP1662,Charlie,Jones,35,false,HR,California,Pending,,84124.56,charlie.jones@example.com,3350271606,true,3350271606,Excellent,false,false,,,75K–99K
+EMP1766,Charlie,Jones,25,false,Cloud Tech,Texas,Pending,,94385.07,charlie.jones@example.com,6543627186,true,6543627186,Poor,true,false,,,75K–99K
+EMP1944,Charlie,Jones,25,false,Sales,New York,Pending,,111071.02,charlie.jones@example.com,4949819420,true,4949819420,Excellent,false,false,,,100K–124K
+EMP1303,Charlie,Miller,35,false,Cloud Tech,New York,Pending,,87018.98,charlie.miller@example.com,5926249450,true,5926249450,Good,true,false,,,75K–99K
+EMP1673,Charlie,Miller,,true,Sales,Florida,Pending,,94509.58,charlie.miller@example.com,869822104,false,,Average,false,false,,,75K–99K
+EMP1979,Charlie,Miller,35,false,HR,Nevada,Pending,,103563.58,charlie.miller@example.com,8991511454,true,8991511454,Excellent,true,false,,,100K–124K
+EMP2000,Charlie,Miller,25,false,HR,Nevada,Pending,,52615.44,charlie.miller@example.com,8460191343,true,8460191343,Average,true,false,,,50K–74K
+EMP1063,Charlie,Smith,25,false,HR,Illinois,Pending,,93348.26,charlie.smith@example.com,1255213759,true,1255213759,Poor,false,false,,,75K–99K
+EMP1139,Charlie,Smith,25,false,Finance,California,Pending,,94725.71,charlie.smith@example.com,3179128684,true,3179128684,Poor,false,false,,,75K–99K
+EMP1748,Charlie,Smith,40,false,Admin,Nevada,Pending,,72224.73,charlie.smith@example.com,2311127127,true,2311127127,Average,false,false,,,50K–74K
+EMP1816,Charlie,Smith,35,false,Finance,Texas,Pending,,97985.61,charlie.smith@example.com,7439742924,true,7439742924,Good,false,false,,,75K–99K
+EMP1019,Charlie,Williams,35,false,Admin,Illinois,Pending,,91926.12,charlie.williams@example.com,7107256365,true,7107256365,Average,true,false,,,75K–99K
+EMP1249,Charlie,Williams,30,false,DevOps,Illinois,Pending,,73633.37,charlie.williams@example.com,2588967923,true,2588967923,Good,true,false,,,50K–74K
+EMP1459,Charlie,Williams,30,false,DevOps,Texas,Pending,,77412.1,charlie.williams@example.com,9342967110,true,9342967110,Poor,false,false,,,75K–99K
+EMP1587,Charlie,Williams,25,false,Cloud Tech,Texas,Pending,,77585.72,charlie.williams@example.com,5465408423,true,5465408423,Excellent,false,false,,,75K–99K
+EMP1781,Charlie,Williams,,true,Sales,Florida,Pending,,94230.03,charlie.williams@example.com,5047158028,true,5047158028,Excellent,true,false,,,75K–99K
+EMP1242,David,Brown,40,false,Cloud Tech,California,Pending,,75823.78,david.brown@example.com,8446267145,true,8446267145,Average,false,false,,,75K–99K
+EMP1497,David,Brown,35,false,DevOps,Florida,Pending,,110524.1,david.brown@example.com,368499514,false,,Average,false,false,,,100K–124K
+EMP1564,David,Brown,,true,Finance,New York,Pending,,105778.36,david.brown@example.com,8841834373,true,8841834373,Good,true,false,,,100K–124K
+EMP1760,David,Brown,,true,Sales,Florida,Pending,,89039.07,david.brown@example.com,4967379456,true,4967379456,Good,false,false,,,75K–99K
+EMP1895,David,Brown,30,false,HR,Florida,Pending,,112427.58,david.brown@example.com,9471136336,true,9471136336,Good,true,false,,,100K–124K
+EMP1540,David,Davis,35,false,Sales,Illinois,Pending,,93276.73,david.davis@example.com,6488319212,true,6488319212,Average,false,false,,,75K–99K
+EMP1688,David,Davis,25,false,Admin,Florida,Pending,,56577.22,david.davis@example.com,8252129327,true,8252129327,Poor,true,false,,,50K–74K
+EMP1710,David,Davis,,true,DevOps,New York,Pending,,89069.91,david.davis@example.com,8826913118,true,8826913118,Good,false,false,,,75K–99K
+EMP1747,David,Davis,30,false,Sales,Illinois,Pending,,64161.72,david.davis@example.com,6437490606,true,6437490606,Excellent,true,false,,,50K–74K
+EMP1023,David,Garcia,35,false,Finance,Nevada,Pending,,80667.01,david.garcia@example.com,7572158623,true,7572158623,Excellent,false,false,,,75K–99K
+EMP1174,David,Garcia,40,false,Sales,Illinois,Pending,,94988.94,david.garcia@example.com,531312205,false,,Good,false,false,,,75K–99K
+EMP1348,David,Garcia,,true,Sales,New York,Pending,,61865.12,david.garcia@example.com,5586851275,true,5586851275,Excellent,true,false,,,50K–74K
+EMP1385,David,Garcia,25,false,Sales,California,Pending,,91780.04,david.garcia@example.com,40104144,false,,Poor,true,false,,,75K–99K
+EMP1503,David,Garcia,25,false,Sales,Florida,Pending,,97652.9,david.garcia@example.com,5131528546,true,5131528546,Excellent,false,false,,,75K–99K
+EMP1644,David,Garcia,35,false,Cloud Tech,Florida,Pending,,107475.23,david.garcia@example.com,4450566587,true,4450566587,Average,false,false,,,100K–124K
+EMP1829,David,Garcia,,true,HR,Florida,Pending,,75687.9,david.garcia@example.com,4614707985,true,4614707985,Good,true,false,,,75K–99K
+EMP1981,David,Garcia,30,false,DevOps,California,Pending,,113727.23,david.garcia@example.com,8818984840,true,8818984840,Poor,false,false,,,100K–124K
+EMP2009,David,Garcia,,true,Finance,Illinois,Pending,,62603.98,david.garcia@example.com,7315391148,true,7315391148,Poor,false,false,,,50K–74K
+EMP1196,David,Johnson,35,false,Sales,Florida,Pending,,117040.57,david.johnson@example.com,5066337049,true,5066337049,Good,true,false,,,100K–124K
+EMP1307,David,Johnson,30,false,Cloud Tech,Texas,Pending,,81250.87,david.johnson@example.com,9523668787,true,9523668787,Excellent,false,false,,,75K–99K
+EMP1527,David,Johnson,,true,Admin,California,Pending,,75054.53,david.johnson@example.com,1182379311,true,1182379311,Average,false,false,,,75K–99K
+EMP1541,David,Johnson,40,false,HR,Nevada,Pending,,76941.36,david.johnson@example.com,4249128964,true,4249128964,Poor,true,false,,,75K–99K
+EMP1573,David,Johnson,,true,Sales,Florida,Pending,,102649.36,david.johnson@example.com,2324412335,true,2324412335,Poor,false,false,,,100K–124K
+EMP1756,David,Johnson,25,false,Admin,Florida,Pending,,98150.39,david.johnson@example.com,9848228500,true,9848228500,Good,true,false,,,75K–99K
+EMP1784,David,Johnson,25,false,DevOps,New York,Pending,,67809.23,david.johnson@example.com,4837441714,true,4837441714,Excellent,false,false,,,50K–74K
+EMP1851,David,Johnson,,true,DevOps,Texas,Pending,,56047.05,david.johnson@example.com,817214363,false,,Excellent,true,false,,,50K–74K
+EMP1906,David,Johnson,30,false,HR,New York,Pending,,95432.69,david.johnson@example.com,2198041846,true,2198041846,Excellent,true,false,,,75K–99K
+EMP1985,David,Johnson,35,false,Finance,Illinois,Pending,,61663.91,david.johnson@example.com,9107322835,true,9107322835,Average,true,false,,,50K–74K
+EMP1025,David,Miller,25,false,Cloud Tech,Nevada,Pending,,66025.92,david.miller@example.com,9485625727,true,9485625727,Average,false,false,,,50K–74K
+EMP1108,David,Miller,35,false,DevOps,California,Pending,,81782.19,david.miller@example.com,5319433749,true,5319433749,Good,false,false,,,75K–99K
+EMP1189,David,Miller,35,false,HR,Nevada,Pending,,60338.29,david.miller@example.com,7347156626,true,7347156626,Excellent,false,false,,,50K–74K
+EMP1450,David,Miller,,true,HR,Nevada,Pending,,113978.6,david.miller@example.com,56435022,false,,Excellent,true,false,,,100K–124K
+EMP1881,David,Miller,25,false,Sales,Texas,Pending,,110391.17,david.miller@example.com,8914444982,true,8914444982,Excellent,false,false,,,100K–124K
+EMP1136,David,Smith,,true,Finance,Illinois,Pending,,62603.98,david.smith@example.com,9611223385,true,9611223385,Good,false,false,,,50K–74K
+EMP1158,David,Smith,25,false,Sales,New York,Pending,,106913.71,david.smith@example.com,7058025661,true,7058025661,Average,false,false,,,100K–124K
+EMP1643,David,Smith,35,false,Finance,California,Pending,,50680.62,david.smith@example.com,6065274032,true,6065274032,Average,true,false,,,50K–74K
+EMP1957,David,Smith,30,false,HR,New York,Pending,,118150.59,david.smith@example.com,6079848703,true,6079848703,Average,true,false,,,100K–124K
+EMP1058,David,Williams,35,false,Finance,Texas,Pending,,93620.88,david.williams@example.com,54522800,false,,Good,false,false,,,75K–99K
+EMP1333,David,Williams,35,false,DevOps,Texas,Pending,,95492.61,david.williams@example.com,6874090379,true,6874090379,Good,false,false,,,75K–99K
+EMP1735,David,Williams,,true,Admin,New York,Pending,,102524.86,david.williams@example.com,8153523735,true,8153523735,Poor,false,false,,,100K–124K
+EMP1757,David,Williams,40,false,Finance,Texas,Pending,,107703.0,david.williams@example.com,1688092549,true,1688092549,Average,false,false,,,100K–124K
+EMP1115,Eva,Brown,30,false,Sales,Florida,Pending,,84420.81,eva.brown@example.com,5190361331,true,5190361331,Average,false,false,,,75K–99K
+EMP1142,Eva,Brown,25,false,Sales,Nevada,Pending,,113743.19,eva.brown@example.com,6346692547,true,6346692547,Good,true,false,,,100K–124K
+EMP1275,Eva,Brown,35,false,DevOps,New York,Pending,,84230.22,eva.brown@example.com,200053473,false,,Good,true,false,,,75K–99K
+EMP1429,Eva,Brown,25,false,Cloud Tech,New York,Pending,,99059.28,eva.brown@example.com,6723849790,true,6723849790,Poor,false,false,,,75K–99K
+EMP1547,Eva,Brown,,true,Sales,New York,Pending,,81934.55,eva.brown@example.com,7418652056,true,7418652056,Poor,false,false,,,75K–99K
+EMP1593,Eva,Brown,,true,Admin,Illinois,Pending,,106538.98,eva.brown@example.com,1394498829,true,1394498829,Excellent,false,false,,,100K–124K
+EMP1835,Eva,Brown,25,false,DevOps,Florida,Pending,,90100.2,eva.brown@example.com,476921052,false,,Good,false,false,,,75K–99K
+EMP1927,Eva,Brown,30,false,Cloud Tech,Texas,Pending,,81182.07,eva.brown@example.com,1265742230,true,1265742230,Good,true,false,,,75K–99K
+EMP1111,Eva,Davis,40,false,Cloud Tech,Florida,Pending,,98981.36,eva.davis@example.com,9212493842,true,9212493842,Good,true,false,,,75K–99K
+EMP1193,Eva,Davis,,true,Cloud Tech,California,Pending,,71728.55,eva.davis@example.com,7323008575,true,7323008575,Good,true,false,,,50K–74K
+EMP1569,Eva,Davis,25,false,HR,Florida,Pending,,52795.84,eva.davis@example.com,3459576402,true,3459576402,Poor,false,false,,,50K–74K
+EMP1606,Eva,Davis,35,false,Sales,Illinois,Pending,,76366.17,eva.davis@example.com,6367747225,true,6367747225,Excellent,false,false,,,75K–99K
+EMP1850,Eva,Davis,30,false,Cloud Tech,Texas,Pending,,53981.73,eva.davis@example.com,6395613722,true,6395613722,Average,false,false,,,50K–74K
+EMP1945,Eva,Davis,35,false,DevOps,Nevada,Pending,,56708.34,eva.davis@example.com,7942817933,true,7942817933,Excellent,false,false,,,50K–74K
+EMP1373,Eva,Garcia,,true,Sales,Texas,Pending,,71923.0,eva.garcia@example.com,4964985600,true,4964985600,Good,true,false,,,50K–74K
+EMP1424,Eva,Garcia,35,false,HR,Texas,Pending,,50557.84,eva.garcia@example.com,104159148,false,,Average,true,false,,,50K–74K
+EMP1558,Eva,Garcia,,true,HR,Nevada,Pending,,94280.83,eva.garcia@example.com,7111212589,true,7111212589,Good,true,false,,,75K–99K
+EMP1680,Eva,Garcia,35,false,DevOps,Nevada,Pending,,68817.54,eva.garcia@example.com,3202032649,true,3202032649,Excellent,false,false,,,50K–74K
+EMP1778,Eva,Garcia,35,false,Sales,Florida,Pending,,98708.06,eva.garcia@example.com,2135415969,true,2135415969,Average,true,false,,,75K–99K
+EMP1323,Eva,Johnson,,true,Sales,Illinois,Pending,,70663.46,eva.johnson@example.com,4054683564,true,4054683564,Excellent,false,false,,,50K–74K
+EMP1613,Eva,Johnson,30,false,Sales,Florida,Pending,,94633.59,eva.johnson@example.com,7819523709,true,7819523709,Average,true,false,,,75K–99K
+EMP1634,Eva,Johnson,30,false,Cloud Tech,Illinois,Pending,,98891.48,eva.johnson@example.com,9970469471,true,9970469471,Good,true,false,,,75K–99K
+EMP1482,Eva,Jones,,true,Finance,Texas,Pending,,91130.33,eva.jones@example.com,9026113988,true,9026113988,Good,false,false,,,75K–99K
+EMP1687,Eva,Jones,40,false,Cloud Tech,Texas,Pending,,76935.85,eva.jones@example.com,9298808582,true,9298808582,Good,true,false,,,75K–99K
+EMP1831,Eva,Jones,40,false,Sales,Texas,Pending,,92704.94,eva.jones@example.com,3945703942,true,3945703942,Excellent,false,false,,,75K–99K
+EMP1878,Eva,Jones,40,false,DevOps,Florida,Pending,,64431.22,eva.jones@example.com,1205464753,true,1205464753,Poor,false,false,,,50K–74K
+EMP1900,Eva,Jones,30,false,DevOps,Florida,Pending,,90856.21,eva.jones@example.com,9352196262,true,9352196262,Average,true,false,,,75K–99K
+EMP1093,Eva,Miller,,true,DevOps,California,Pending,,86163.91,eva.miller@example.com,2412462094,true,2412462094,Average,true,false,,,75K–99K
+EMP1113,Eva,Miller,25,false,Cloud Tech,New York,Pending,,110236.18,eva.miller@example.com,6641877579,true,6641877579,Average,true,false,,,100K–124K
+EMP1175,Eva,Miller,25,false,Admin,California,Pending,,71628.93,eva.miller@example.com,8155839385,true,8155839385,Excellent,false,false,,,50K–74K
+EMP1325,Eva,Miller,40,false,DevOps,Nevada,Pending,,82258.03,eva.miller@example.com,6790422710,true,6790422710,Average,true,false,,,75K–99K
+EMP1522,Eva,Miller,,true,Sales,Texas,Pending,,96337.89,eva.miller@example.com,6394568043,true,6394568043,Poor,false,false,,,75K–99K
+EMP1559,Eva,Miller,35,false,DevOps,New York,Pending,,118262.56,eva.miller@example.com,2035713431,true,2035713431,Average,true,false,,,100K–124K
+EMP1586,Eva,Miller,30,false,HR,Nevada,Pending,,76119.14,eva.miller@example.com,740177508,false,,Good,false,false,,,75K–99K
+EMP1614,Eva,Miller,25,false,Admin,Florida,Pending,,110711.17,eva.miller@example.com,687616480,false,,Excellent,true,false,,,100K–124K
+EMP1909,Eva,Miller,40,false,Sales,California,Pending,,106615.71,eva.miller@example.com,7623039110,true,7623039110,Average,false,false,,,100K–124K
+EMP1968,Eva,Miller,40,false,HR,Florida,Pending,,116509.72,eva.miller@example.com,7941515262,true,7941515262,Average,false,false,,,100K–124K
+EMP1248,Eva,Smith,30,false,DevOps,California,Pending,,56539.99,eva.smith@example.com,9484910255,true,9484910255,Excellent,true,false,,,50K–74K
+EMP1276,Eva,Smith,35,false,Cloud Tech,Illinois,Pending,,76578.59,eva.smith@example.com,9162475540,true,9162475540,Average,false,false,,,75K–99K
+EMP1278,Eva,Smith,40,false,Admin,New York,Pending,,115311.68,eva.smith@example.com,5343961128,true,5343961128,Excellent,true,false,,,100K–124K
+EMP1330,Eva,Smith,,true,HR,Texas,Pending,,98850.14,eva.smith@example.com,4955112746,true,4955112746,Poor,false,false,,,75K–99K
+EMP1488,Eva,Smith,35,false,HR,Florida,Pending,,56875.22,eva.smith@example.com,5511668296,true,5511668296,Poor,false,false,,,50K–74K
+EMP1550,Eva,Smith,,true,Sales,California,Pending,,53204.47,eva.smith@example.com,5480940475,true,5480940475,Good,false,false,,,50K–74K
+EMP1834,Eva,Smith,35,false,Admin,Texas,Pending,,102459.77,eva.smith@example.com,3191009003,true,3191009003,Poor,false,false,,,100K–124K
+EMP1386,Eva,Williams,35,false,Sales,California,Pending,,107062.66,eva.williams@example.com,9642297124,true,9642297124,Good,true,false,,,100K–124K
+EMP1486,Eva,Williams,40,false,Admin,Illinois,Pending,,98556.29,eva.williams@example.com,8815793762,true,8815793762,Poor,true,false,,,75K–99K
+EMP1973,Eva,Williams,,true,HR,Illinois,Pending,,116680.63,eva.williams@example.com,3095055604,true,3095055604,Excellent,true,false,,,100K–124K
+EMP2013,Eva,Williams,,true,HR,Illinois,Pending,,116680.63,eva.williams@example.com,4322302332,true,4322302332,Good,false,false,,,100K–124K
+EMP1081,Frank,Brown,30,false,DevOps,Texas,Pending,,102796.32,frank.brown@example.com,5196115939,true,5196115939,Good,false,false,,,100K–124K
+EMP1130,Frank,Brown,25,false,Finance,Texas,Pending,,51074.33,frank.brown@example.com,7303379336,true,7303379336,Excellent,true,false,,,50K–74K
+EMP1223,Frank,Brown,30,false,Cloud Tech,California,Pending,,106945.62,frank.brown@example.com,7374605232,true,7374605232,Average,false,false,,,100K–124K
+EMP1232,Frank,Brown,,true,Finance,California,Pending,,116353.31,frank.brown@example.com,1783099973,true,1783099973,Poor,true,false,,,100K–124K
+EMP1322,Frank,Brown,35,false,Finance,Texas,Pending,,65489.19,frank.brown@example.com,1990970050,true,1990970050,Average,true,false,,,50K–74K
+EMP1658,Frank,Brown,40,false,HR,California,Pending,,89748.42,frank.brown@example.com,35624394,false,,Good,false,false,,,75K–99K
+EMP1717,Frank,Brown,25,false,DevOps,California,Pending,,88942.62,frank.brown@example.com,1253892186,true,1253892186,Average,false,false,,,75K–99K
+EMP1793,Frank,Brown,40,false,HR,New York,Pending,,62250.89,frank.brown@example.com,6453804420,true,6453804420,Excellent,true,false,,,50K–74K
+EMP1054,Frank,Davis,,true,Finance,Nevada,Pending,,115746.6,frank.davis@example.com,6024375737,true,6024375737,Excellent,true,false,,,100K–124K
+EMP1211,Frank,Davis,,true,Cloud Tech,Nevada,Pending,,58727.44,frank.davis@example.com,5057397690,true,5057397690,Poor,true,false,,,50K–74K
+EMP1365,Frank,Davis,40,false,Cloud Tech,Florida,Pending,,81671.3,frank.davis@example.com,2990155798,true,2990155798,Poor,true,false,,,75K–99K
+EMP1495,Frank,Davis,35,false,Admin,California,Pending,,98219.54,frank.davis@example.com,9413475097,true,9413475097,Good,true,false,,,75K–99K
+EMP1549,Frank,Davis,40,false,Cloud Tech,Texas,Pending,,50153.79,frank.davis@example.com,3758309450,true,3758309450,Good,true,false,,,50K–74K
+EMP1628,Frank,Davis,40,false,DevOps,New York,Pending,,102346.99,frank.davis@example.com,8810798333,true,8810798333,Excellent,true,false,,,100K–124K
+EMP1828,Frank,Davis,30,false,Admin,Florida,Pending,,90455.7,frank.davis@example.com,5862394534,true,5862394534,Excellent,false,false,,,75K–99K
+EMP1923,Frank,Davis,35,false,Finance,California,Pending,,60295.84,frank.davis@example.com,5534820127,true,5534820127,Good,false,false,,,50K–74K
+EMP1149,Frank,Garcia,35,false,Sales,Florida,Pending,,57584.23,frank.garcia@example.com,5669078262,true,5669078262,Average,true,false,,,50K–74K
+EMP1310,Frank,Garcia,30,false,HR,New York,Pending,,65472.99,frank.garcia@example.com,2105524727,true,2105524727,Good,false,false,,,50K–74K
+EMP1320,Frank,Garcia,35,false,Finance,Florida,Pending,,75148.17,frank.garcia@example.com,5950342810,true,5950342810,Average,false,false,,,75K–99K
+EMP1396,Frank,Garcia,35,false,Cloud Tech,California,Pending,,61586.76,frank.garcia@example.com,745106633,false,,Excellent,false,false,,,50K–74K
+EMP1436,Frank,Garcia,40,false,Sales,Texas,Pending,,68211.68,frank.garcia@example.com,7244617678,true,7244617678,Good,false,false,,,50K–74K
+EMP1506,Frank,Garcia,,true,HR,New York,Pending,,89077.36,frank.garcia@example.com,2727423182,true,2727423182,Average,false,false,,,75K–99K
+EMP1660,Frank,Garcia,35,false,HR,California,Pending,,115229.12,frank.garcia@example.com,4210890284,true,4210890284,Poor,true,false,,,100K–124K
+EMP1701,Frank,Garcia,,true,Admin,California,Pending,,96080.26,frank.garcia@example.com,8609191910,true,8609191910,Average,false,false,,,75K–99K
+EMP1714,Frank,Garcia,,true,Admin,Illinois,Pending,,76254.42,frank.garcia@example.com,2043097767,true,2043097767,Excellent,false,false,,,75K–99K
+EMP1777,Frank,Garcia,40,false,Cloud Tech,Florida,Pending,,70498.29,frank.garcia@example.com,5515122945,true,5515122945,Good,true,false,,,50K–74K
+EMP1240,Frank,Johnson,35,false,DevOps,Texas,Pending,,70325.36,frank.johnson@example.com,3103032431,true,3103032431,Average,false,false,,,50K–74K
+EMP1539,Frank,Johnson,25,false,DevOps,Nevada,Pending,,102053.67,frank.johnson@example.com,5034469458,true,5034469458,Average,false,false,,,100K–124K
+EMP1625,Frank,Johnson,25,false,Admin,Florida,Pending,,67754.29,frank.johnson@example.com,6015343323,true,6015343323,Average,true,false,,,50K–74K
+EMP1774,Frank,Johnson,25,false,Admin,Texas,Pending,,108661.01,frank.johnson@example.com,9628874311,true,9628874311,Poor,false,false,,,100K–124K
+EMP1062,Frank,Jones,40,false,Finance,Florida,Pending,,85782.18,frank.jones@example.com,1213524786,true,1213524786,Excellent,true,false,,,75K–99K
+EMP1502,Frank,Jones,35,false,HR,Nevada,Pending,,70915.38,frank.jones@example.com,1176741240,true,1176741240,Excellent,true,false,,,50K–74K
+EMP1920,Frank,Jones,30,false,Admin,Illinois,Pending,,96588.73,frank.jones@example.com,7677537259,true,7677537259,Average,true,false,,,75K–99K
+EMP1245,Frank,Miller,30,false,Sales,Nevada,Pending,,103744.71,frank.miller@example.com,4181861514,true,4181861514,Average,false,false,,,100K–124K
+EMP1257,Frank,Miller,30,false,Admin,Florida,Pending,,84913.18,frank.miller@example.com,2850676250,true,2850676250,Average,true,false,,,75K–99K
+EMP1419,Frank,Miller,30,false,HR,Texas,Pending,,100594.49,frank.miller@example.com,3441497825,true,3441497825,Average,false,false,,,100K–124K
+EMP1451,Frank,Miller,,true,Sales,New York,Pending,,108568.78,frank.miller@example.com,8503719904,true,8503719904,Good,true,false,,,100K–124K
+EMP1915,Frank,Miller,40,false,Sales,Nevada,Pending,,108933.55,frank.miller@example.com,6886878598,true,6886878598,Poor,true,false,,,100K–124K
+EMP1038,Frank,Smith,35,false,Admin,Nevada,Pending,,66708.02,frank.smith@example.com,6108573277,true,6108573277,Good,true,false,,,50K–74K
+EMP1116,Frank,Smith,40,false,HR,California,Pending,,110041.32,frank.smith@example.com,5411076094,true,5411076094,Average,false,false,,,100K–124K
+EMP1132,Frank,Smith,,true,Finance,California,Pending,,112120.71,frank.smith@example.com,812473949,false,,Poor,true,false,,,100K–124K
+EMP1178,Frank,Smith,35,false,DevOps,California,Pending,,55946.99,frank.smith@example.com,136497188,false,,Average,false,false,,,50K–74K
+EMP1203,Frank,Smith,30,false,DevOps,Nevada,Pending,,113871.36,frank.smith@example.com,7932302345,true,7932302345,Average,false,false,,,100K–124K
+EMP1352,Frank,Smith,40,false,HR,Florida,Pending,,59528.71,frank.smith@example.com,3378613714,true,3378613714,Poor,false,false,,,50K–74K
+EMP1664,Frank,Smith,40,false,DevOps,Illinois,Pending,,109423.05,frank.smith@example.com,1128981230,true,1128981230,Average,false,false,,,100K–124K
+EMP1873,Frank,Smith,40,false,HR,Texas,Pending,,88211.94,frank.smith@example.com,6881228216,true,6881228216,Average,false,false,,,75K–99K
+EMP1960,Frank,Smith,25,false,Finance,Texas,Pending,,84707.12,frank.smith@example.com,4640830372,true,4640830372,Excellent,false,false,,,75K–99K
+EMP2003,Frank,Smith,35,false,HR,California,Pending,,115229.12,frank.smith@example.com,1464493698,true,1464493698,Excellent,true,false,,,100K–124K
+EMP1326,Frank,Williams,30,false,Admin,Nevada,Pending,,62883.34,frank.williams@example.com,3322889856,true,3322889856,Average,false,false,,,50K–74K
+EMP1571,Frank,Williams,,true,Admin,New York,Pending,,105038.08,frank.williams@example.com,8249839224,true,8249839224,Average,false,false,,,100K–124K
+EMP1066,Grace,Brown,30,false,Admin,Nevada,Pending,,112486.19,grace.brown@example.com,7850720810,true,7850720810,Excellent,true,false,,,100K–124K
+EMP1077,Grace,Brown,30,false,Finance,New York,Pending,,51887.65,grace.brown@example.com,6110627370,true,6110627370,Good,false,false,,,50K–74K
+EMP1233,Grace,Brown,35,false,Sales,Nevada,Pending,,116695.26,grace.brown@example.com,1926764920,true,1926764920,Good,false,false,,,100K–124K
+EMP1266,Grace,Brown,,true,DevOps,California,Pending,,85512.05,grace.brown@example.com,7416787255,true,7416787255,Good,false,false,,,75K–99K
+EMP1339,Grace,Brown,,true,HR,Florida,Pending,,105334.87,grace.brown@example.com,7303064420,true,7303064420,Average,false,false,,,100K–124K
+EMP1375,Grace,Brown,40,false,Admin,Florida,Pending,,98540.3,grace.brown@example.com,2510505378,true,2510505378,Good,false,false,,,75K–99K
+EMP1469,Grace,Brown,,true,DevOps,Nevada,Pending,,96241.85,grace.brown@example.com,9842673203,true,9842673203,Excellent,false,false,,,75K–99K
+EMP1268,Grace,Davis,,true,HR,Nevada,Pending,,51865.3,grace.davis@example.com,305690673,false,,Poor,true,false,,,50K–74K
+EMP1500,Grace,Davis,,true,Cloud Tech,Texas,Pending,,117653.98,grace.davis@example.com,2090883069,true,2090883069,Good,true,false,,,100K–124K
+EMP1017,Grace,Garcia,30,false,Finance,Texas,Pending,,100377.65,grace.garcia@example.com,2639343625,true,2639343625,Average,true,false,,,100K–124K
+EMP1411,Grace,Garcia,25,false,DevOps,Illinois,Pending,,60687.63,grace.garcia@example.com,9859167953,true,9859167953,Excellent,false,false,,,50K–74K
+EMP1477,Grace,Garcia,,true,DevOps,Florida,Pending,,66494.94,grace.garcia@example.com,8093511870,true,8093511870,Poor,false,false,,,50K–74K
+EMP1520,Grace,Garcia,25,false,Admin,New York,Pending,,64783.32,grace.garcia@example.com,3041662410,true,3041662410,Average,false,false,,,50K–74K
+EMP1601,Grace,Garcia,35,false,Sales,Texas,Pending,,109358.73,grace.garcia@example.com,4457702991,true,4457702991,Good,false,false,,,100K–124K
+EMP1750,Grace,Garcia,40,false,HR,Florida,Pending,,112589.11,grace.garcia@example.com,1163187327,true,1163187327,Average,false,false,,,100K–124K
+EMP1841,Grace,Garcia,30,false,DevOps,Florida,Pending,,61709.83,grace.garcia@example.com,7340433699,true,7340433699,Good,true,false,,,50K–74K
+EMP1934,Grace,Garcia,30,false,Sales,Florida,Pending,,102867.06,grace.garcia@example.com,7609441282,true,7609441282,Average,true,false,,,100K–124K
+EMP1186,Grace,Johnson,25,false,HR,New York,Pending,,108241.81,grace.johnson@example.com,171302320,false,,Excellent,true,false,,,100K–124K
+EMP1195,Grace,Johnson,40,false,Sales,Illinois,Pending,,81481.36,grace.johnson@example.com,1692364586,true,1692364586,Excellent,false,false,,,75K–99K
+EMP1623,Grace,Johnson,35,false,Admin,Texas,Pending,,105259.57,grace.johnson@example.com,8867925297,true,8867925297,Good,true,false,,,100K–124K
+EMP1827,Grace,Johnson,,true,Admin,Florida,Pending,,88643.5,grace.johnson@example.com,2632809447,true,2632809447,Poor,false,false,,,75K–99K
+EMP1015,Grace,Jones,40,false,Sales,Florida,Pending,,117975.49,grace.jones@example.com,4215291085,true,4215291085,Good,true,false,,,100K–124K
+EMP1552,Grace,Jones,30,false,Finance,New York,Pending,,57543.6,grace.jones@example.com,2781050921,true,2781050921,Good,true,false,,,50K–74K
+EMP1632,Grace,Jones,40,false,Sales,Nevada,Pending,,99812.41,grace.jones@example.com,7171731892,true,7171731892,Good,false,false,,,75K–99K
+EMP1705,Grace,Jones,40,false,Sales,Illinois,Pending,,67915.7,grace.jones@example.com,3470574237,true,3470574237,Good,false,false,,,50K–74K
+EMP1852,Grace,Jones,,true,Admin,Texas,Pending,,67733.5,grace.jones@example.com,3813000412,true,3813000412,Average,false,false,,,50K–74K
+EMP2014,Grace,Jones,30,false,Finance,Nevada,Pending,,51990.98,grace.jones@example.com,2470739200,true,2470739200,Excellent,true,false,,,50K–74K
+EMP1422,Grace,Miller,35,false,HR,Texas,Pending,,58358.07,grace.miller@example.com,2943985297,true,2943985297,Poor,true,false,,,50K–74K
+EMP1666,Grace,Miller,35,false,Finance,California,Pending,,86465.5,grace.miller@example.com,7481700665,true,7481700665,Poor,true,false,,,75K–99K
+EMP1849,Grace,Miller,25,false,Sales,Texas,Pending,,74606.15,grace.miller@example.com,2357155867,true,2357155867,Good,true,false,,,50K–74K
+EMP1938,Grace,Miller,30,false,Finance,Nevada,Pending,,51990.98,grace.miller@example.com,5143776935,true,5143776935,Excellent,true,false,,,50K–74K
+EMP1037,Grace,Smith,25,false,Sales,New York,Pending,,52781.92,grace.smith@example.com,4996165925,true,4996165925,Average,true,false,,,50K–74K
+EMP1228,Grace,Smith,35,false,Admin,Florida,Pending,,75714.28,grace.smith@example.com,5912662014,true,5912662014,Good,true,false,,,75K–99K
+EMP1292,Grace,Smith,,true,DevOps,California,Pending,,94709.79,grace.smith@example.com,3652717271,true,3652717271,Excellent,false,false,,,75K–99K
+EMP1358,Grace,Smith,40,false,Cloud Tech,Florida,Pending,,90757.08,grace.smith@example.com,6482531105,true,6482531105,Good,true,false,,,75K–99K
+EMP1389,Grace,Smith,40,false,Finance,Texas,Pending,,111608.76,grace.smith@example.com,8331170302,true,8331170302,Good,true,false,,,100K–124K
+EMP1478,Grace,Smith,25,false,Sales,Illinois,Pending,,90003.98,grace.smith@example.com,8133595615,true,8133595615,Average,false,false,,,75K–99K
+EMP1670,Grace,Smith,35,false,Admin,New York,Pending,,81021.23,grace.smith@example.com,5962622821,true,5962622821,Good,false,false,,,75K–99K
+EMP1758,Grace,Smith,,true,DevOps,Illinois,Pending,,86766.14,grace.smith@example.com,2130609068,true,2130609068,Poor,true,false,,,75K–99K
+EMP1812,Grace,Smith,30,false,Sales,New York,Pending,,118172.42,grace.smith@example.com,7598339913,true,7598339913,Poor,true,false,,,100K–124K
+EMP2004,Grace,Smith,25,false,DevOps,Illinois,Pending,,60687.63,grace.smith@example.com,9516793349,true,9516793349,Excellent,false,false,,,50K–74K
+EMP1359,Grace,Williams,,true,Cloud Tech,California,Pending,,87583.42,grace.williams@example.com,920981959,false,,Good,false,false,,,75K–99K
+EMP1410,Grace,Williams,,true,HR,Nevada,Pending,,103697.7,grace.williams@example.com,4556964429,true,4556964429,Excellent,true,false,,,100K–124K
+EMP1414,Grace,Williams,25,false,Finance,Illinois,Pending,,71650.3,grace.williams@example.com,4910740649,true,4910740649,Poor,true,false,,,50K–74K
+EMP1817,Grace,Williams,35,false,Finance,Nevada,Pending,,56337.31,grace.williams@example.com,105875255,false,,Poor,true,false,,,50K–74K
+EMP1826,Grace,Williams,30,false,Cloud Tech,New York,Pending,,79109.88,grace.williams@example.com,3397051957,true,3397051957,Poor,false,false,,,75K–99K
+EMP1875,Grace,Williams,30,false,DevOps,California,Pending,,80706.28,grace.williams@example.com,605603566,false,,Average,true,false,,,75K–99K
+EMP1173,Heidi,Brown,30,false,Cloud Tech,California,Pending,,58041.97,heidi.brown@example.com,6335331059,true,6335331059,Poor,true,false,,,50K–74K
+EMP1695,Heidi,Brown,30,false,HR,Illinois,Pending,,74312.24,heidi.brown@example.com,3741897214,true,3741897214,Poor,false,false,,,50K–74K
+EMP1860,Heidi,Brown,40,false,Finance,Florida,Pending,,106859.3,heidi.brown@example.com,871827495,false,,Good,false,false,,,100K–124K
+EMP1991,Heidi,Brown,,true,Admin,Texas,Pending,,86135.69,heidi.brown@example.com,2341903105,true,2341903105,Excellent,false,false,,,75K–99K
+EMP1898,Heidi,Davis,40,false,Admin,Texas,Pending,,50869.61,heidi.davis@example.com,7269608436,true,7269608436,Average,true,false,,,50K–74K
+EMP1964,Heidi,Davis,25,false,Finance,Florida,Pending,,97356.31,heidi.davis@example.com,1537012423,true,1537012423,Good,true,false,,,75K–99K
+EMP1090,Heidi,Garcia,40,false,Finance,Nevada,Pending,,72561.32,heidi.garcia@example.com,4339718955,true,4339718955,Excellent,true,false,,,50K–74K
+EMP1218,Heidi,Garcia,25,false,Cloud Tech,Florida,Pending,,51150.47,heidi.garcia@example.com,1159319524,true,1159319524,Excellent,false,false,,,50K–74K
+EMP1272,Heidi,Garcia,25,false,DevOps,New York,Pending,,89262.07,heidi.garcia@example.com,3260931065,true,3260931065,Poor,true,false,,,75K–99K
+EMP1329,Heidi,Garcia,40,false,Cloud Tech,Texas,Pending,,,heidi.garcia@example.com,8171752420,true,8171752420,Excellent,false,false,,,Unknown
+EMP1457,Heidi,Garcia,35,false,Admin,Nevada,Pending,,112272.02,heidi.garcia@example.com,1903689002,true,1903689002,Poor,false,false,,,100K–124K
+EMP1977,Heidi,Garcia,40,false,Sales,New York,Pending,,77396.94,heidi.garcia@example.com,6245618516,true,6245618516,Excellent,true,false,,,75K–99K
+EMP1356,Heidi,Johnson,30,false,Finance,California,Pending,,107327.59,heidi.johnson@example.com,3960962625,true,3960962625,Poor,false,false,,,100K–124K
+EMP1524,Heidi,Johnson,30,false,Admin,Nevada,Pending,,50651.32,heidi.johnson@example.com,3684748835,true,3684748835,Poor,false,false,,,50K–74K
+EMP1621,Heidi,Johnson,40,false,HR,Illinois,Pending,,108603.34,heidi.johnson@example.com,7742229463,true,7742229463,Excellent,false,false,,,100K–124K
+EMP1697,Heidi,Johnson,40,false,Sales,California,Pending,,84306.44,heidi.johnson@example.com,4381199536,true,4381199536,Average,false,false,,,75K–99K
+EMP1763,Heidi,Johnson,40,false,Cloud Tech,Nevada,Pending,,62584.0,heidi.johnson@example.com,8362536666,true,8362536666,Good,false,false,,,50K–74K
+EMP1858,Heidi,Johnson,25,false,Finance,New York,Pending,,50060.73,heidi.johnson@example.com,3176539704,true,3176539704,Poor,false,false,,,50K–74K
