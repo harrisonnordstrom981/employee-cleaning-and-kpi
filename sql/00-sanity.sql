@@ -1,4 +1,4 @@
--- 00_sanity_checks.sql
+-- 00_sanity.sql
 -- Purpose: Quick checks to understand raw data shape, duplicates, and missingness.
 
 SELECT
